@@ -1,5 +1,5 @@
 
-@include('components.hero')
+{{__('welcome.title')}}
 @include('components.essential-business')
 
 
