@@ -1,2 +1,3 @@
 
-{{__('welcome.title')}}
+{{-- {{__('welcome.title')}} --}}
+@include('components.smarter-business')
