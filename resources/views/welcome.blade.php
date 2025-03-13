@@ -1,2 +1,2 @@
 
-{{__('welcome.title')}}
+@include('components.hero')
