@@ -55,6 +55,7 @@
                             <button class="px-12 py-3 cursor-pointer text-[18px] text-white font-bold bg-[#1565CE] border-4 border-[#C7DFFF] rounded-4xl" style="box-shadow: inset 0 4px 8px rgba(199, 223, 255, 0.8);">
                                 Start free trial
                             </button>
+                            @include('components.heroButton')
                         </div>
                         <div>
                             <button class="underline text-[18px] cursor-pointer">More Info</button>
