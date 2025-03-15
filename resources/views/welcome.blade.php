@@ -4,8 +4,9 @@
 
 
 @include('components.pricing-mission-vission')
-{{-- @include('components.mission-vission') --}}
 
 
-{{-- @include('components.footer') --}}
+
+@include('components.footer')
+
 

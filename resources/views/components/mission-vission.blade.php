@@ -1,108 +1,174 @@
-<x-layout>
-    {{-- <section class="py-12">
-        <!-- Vision Section -->
-        <div class="bg-blue-700 text-white rounded-tl-[50px] rounded-tr-[50px] p-10 relative">
-            <h2 class="text-3xl font-bold text-right">Vision</h2>
-            <p class="mt-4 text-center leading-relaxed">
-                BD Funnel Builder aims to revolutionize the way Bangladeshi entrepreneurs build and scale their online businesses.
-                Our vision is to provide a simple, powerful, and cost-effective funnel-building platform that enables business owners
-                to create high-converting sales funnels, automate marketing, and maximize revenue—without any technical complexity.
-                We believe that every entrepreneur in Bangladesh should have access to world-class digital tools tailored to their needs,
-                helping them grow faster and compete globally.
-            </p>
-            <div class="absolute bottom-4 right-4 text-white opacity-50">
-                <i class="fas fa-pencil-alt"></i> <!-- Icon in bottom-right corner -->
-            </div>
-        </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BD Funnel Builder</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body
+        .scroll-to-top:hover {
+            background-color: #333;
+        }
+        /* Hide scroll button on mobile devices */
+        @media (max-width: 768px) {
+            .scroll-to-top {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Hero Section -->
 
-        <!-- Mission Section -->
-        <div class="bg-gray-100 text-blue-900 rounded-bl-[50px] rounded-br-[50px] p-10 relative">
-            <h2 class="text-3xl font-bold">Mission</h2>
-            <p class="mt-4 leading-relaxed">
-                <strong class="font-bold">Our mission</strong> is to empower digital entrepreneurs with an all-in-one solution that
-                combines e-commerce, lead generation, customer management, and sales funnels under one platform. We are committed to
-                making online business easier by offering intuitive drag-and-drop tools, high-converting templates, local payment
-                integrations, and expert support. Through innovation, education, and a strong community, BD Funnel Builder is dedicated
-                to helping businesses achieve sustainable success in the digital space.
-            </p>
-            <div class="absolute bottom-4 left-4 text-blue-700">
-                <i class="fas fa-paper-plane"></i> <!-- Icon in bottom-left corner -->
-            </div>
-        </div>
-    </section> --}}
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pricing Plans</title>
-        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    </head>
-    <body class="">
-        <div class="container mx-auto px-4 py-8
-            bg-cover bg-center" style="background-image: url('/images/price_bg.png');">
-            <h1 class="text-3xl font-bold text-center mb-8">Choose the Perfect Plan for Your Business</h1>
-
-            <!-- Desktop Version -->
-            <div class="hidden md:flex justify-center space-x-6">
-                <div class="bg-white p-6 rounded-lg shadow-lg w-1/3">
-                    <h2 class="text-2xl font-semibold mb-4">Basic Plan</h2>
-                    <p class="text-gray-600 mb-4">2000 BDT/month</p>
-                    <ul class="space-y-2">
-                        <li><i class="fas fa-check text-green-500"></i> Free Page View</li>
-                        <li><i class="fas fa-check text-green-500"></i> Product and Vertical Management</li>
-                        <li><i class="fas fa-check text-green-500"></i> Google Tag Manager and Analytics</li>
-                        <li><i class="fas fa-check text-green-500"></i> Drag & Drop Site Builder</li>
-                        <li><i class="fas fa-check text-green-500"></i> Order Management</li>
-                        <li><i class="fas fa-check text-green-500"></i> Custom Domain</li>
-                        <li><i class="fas fa-check text-green-500"></i> Order Notification</li>
-                        <li><i class="fas fa-check text-green-500"></i> 3rd Party Integration</li>
-                        <li><i class="fas fa-check text-green-500"></i> Unlimited Users</li>
-                        <li><i class="fas fa-check text-green-500"></i> Customer Management</li>
-                        <li><i class="fas fa-check text-green-500"></i> Courier Automation</li>
-                        <li><i class="fas fa-check text-green-500"></i> Access to All Landing Page Templates</li>
-                        <li><i class="fas fa-check text-green-500"></i> Stock Management</li>
-                        <li><i class="fas fa-check text-green-500"></i> Advanced Analytics</li>
-                        <li><i class="fas fa-check text-green-500"></i> Facebook Pixel & Conversion API</li>
-                        <li><i class="fas fa-check text-green-500"></i> Role & Permission</li>
-                    </ul>
-                    <div class="mt-6">
-                        <button class="bg-blue-500 text-white px-6 py-2 rounded-full">Start Free 7-Day Trial</button>
-                    </div>
+    <section class="bg-[#1565CE] container text-white rounded-xl py-10 md:py-12 relative">
+        <div class="container mx-auto px-4 md:px-8 max-w-7xl">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10 z-10">
+                <img src="/images/mask.png " alt="Mission Top" class="absolute top-0 right-0 w-40 md:block z-0">
+                <div class="w-full md:w-1/2">
+                    <h2 class="text-[24px] md:text-2xl font-bold mb-2">Ready to Build</h2>
+                    <h1 class="text-[40px] md:text-5xl lg:text-6xl font-bold">Your First Funnel?</h1>
                 </div>
-            </div>
 
-            <!-- Mobile Version -->
-            <div class="md:hidden">
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <h2 class="text-2xl font-semibold mb-4">Basic Plan</h2>
-                    <p class="text-gray-600 mb-4">2000 BDT/month</p>
-                    <ul class="space-y-2">
-                        <li><i class="fas fa-check text-green-500"></i> Free Page View</li>
-                        <li><i class="fas fa-check text-green-500"></i> Product and Vertical Management</li>
-                        <li><i class="fas fa-check text-green-500"></i> Google Tag Manager and Analytics</li>
-                        <li><i class="fas fa-check text-green-500"></i> Drag & Drop Site Builder</li>
-                        <li><i class="fas fa-check text-green-500"></i> Order Management</li>
-                        <li><i class="fas fa-check text-green-500"></i> Custom Domain</li>
-                        <li><i class="fas fa-check text-green-500"></i> Order Notification</li>
-                        <li><i class="fas fa-check text-green-500"></i> 3rd Party Integration</li>
-                        <li><i class="fas fa-check text-green-500"></i> Unlimited Users</li>
-                        <li><i class="fas fa-check text-green-500"></i> Customer Management</li>
-                        <li><i class="fas fa-check text-green-500"></i> Courier Automation</li>
-                        <li><i class="fas fa-check text-green-500"></i> Access to All Landing Page Templates</li>
-                        <li><i class="fas fa-check text-green-500"></i> Stock Management</li>
-                        <li><i class="fas fa-check text-green-500"></i> Advanced Analytics</li>
-                        <li><i class="fas fa-check text-green-500"></i> Facebook Pixel & Conversion API</li>
-                        <li><i class="fas fa-check text-green-500"></i> Role & Permission</li>
-                    </ul>
-                    <div class="mt-6">
-                        <button class="bg-blue-500 text-white px-6 py-2 rounded-full">Start Free 7-Day Trial</button>
+                <div class="w-full md:w-1/2 flex justify-center md:justify-end">
+                    <div class="flex flex-col sm:flex-row items-center gap-3 max-w-md w-full">
+                        <div class="bg-white rounded-full flex items-center w-full overflow-hidden">
+                            <div class="flex items-center w-full px-4">
+                                <i class="ri-mail-line text-gray-400 mr-2"></i>
+                                <input
+                                    type="email"
+                                    placeholder="Enter your email"
+                                    class="w-full py-4 px-2 outline-none text-gray-700"
+                                />
+                            </div>
+                        </div>
+                        <button class="bg-[#FF9442] hover:bg-orange-500 text-white font-medium px-8 py-4 rounded-full transition duration-200 w-full sm:w-auto">
+                            Submit
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
-    </html>
-</x-layout>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-12 border-b">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="flex flex-col md:flex-row items-center gap-6">
+                <div class="w-full md:w-1/4">
+                    <img src="/images/bfb_logo.png" alt="BD Funnel Builder Logo" class="w-48 mx-auto md:mx-0">
+                </div>
+                <div class="w-full md:w-1/2">
+                    <p class="text-[#0B0B0B] text-left md:text-left text-[16px] leading-relaxed">
+                        BD Funnel Builder is a powerful all-in-one platform designed to help entrepreneurs build high-converting websites and sales funnels with ease. Whether you're an e-commerce seller, digital marketer or small business owner, our no-code solution simplifies the process, automates operations, and enhances your business growth.
+                    </p>
+                </div>
+
+                <!-- Social Media Icons -->
+                <div class="w-full md:w-1/4 flex justify-center md:justify-end mt-6 md:mt-0 space-x-2">
+                    <a href="#" class="text-blue-600 bg-blue-50 w-8 h-8 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a href="#" class="text-blue-600 bg-blue-50 w-8 h-8 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
+                        <i class="ri-linkedin-fill"></i>
+                    </a>
+                    <a href="#" class="text-blue-600 bg-blue-50 w-8 h-8 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="#" class="text-blue-600 bg-blue-50 w-8 h-8 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                    <a href="#" class="text-blue-600 bg-blue-50 w-8 h-8 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
+                        <i class="ri-telegram-2-fill"></i>
+                    </a>
+                    <a href="#" class="text-blue-600 bg-blue-50 w-8 h-8 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
+                        <i class="ri-youtube-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12">
+        <div class="container mx-auto px-4 md:px-8 max-w-7xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Company Section -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Company</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-700 hover:text-blue-600">About us</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-blue-600">Careers</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-blue-600">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal Section -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Legal</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-700 hover:text-blue-600">Terms of service</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-blue-600">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Us Section -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <p class="font-bold">Address:</p>
+                    <p class="mb-4 text-gray-700">Ka-86/1, (3rd Floor) Progoty Soroni Road, Kuril Kazi Bari, Kuril, Dhaka-1229</p>
+
+                    <p class="font-bold">Phone:</p>
+                    <p class="mb-4 text-gray-700">+880 1404 011 056</p>
+                </div>
+
+                <!-- Map Section -->
+                <div class="md:col-span-1">
+                    <div class="w-full h-48 bg-gray-200 rounded-lg overflow-hidden">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4340.615157967687!2d90.4215723268882!3d23.81832429293884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d61e95fe7ee33b3%3A0x699bc2c7d11775d!2sBD%20Funnel%20Builder!5e0!3m2!1sen!2sbd!4v1741960971034!5m2!1sen!2sbd"
+                            width="100%"
+                            height="100%"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright Section -->
+            <div class="border-t mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-700">&copy; 2025 BDFunnelBuilder. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="fixed bottom-6 right-6 bg-black text-white text-2xl flex items-center justify-center w-10 h-10 rounded-full shadow-lg transition-opacity duration-300 hover:bg-gray-800 focus:outline-none z-50 scroll-to-top opacity-0 pointer-events-none">
+        <i class="ri-arrow-up-line"></i>
+    </button>
+
+    <script>
+        // Scroll to top functionality
+        const scrollToTopButton = document.getElementById('scrollToTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                scrollToTopButton.classList.remove('opacity-0', 'pointer-events-none');
+                scrollToTopButton.classList.add('opacity-100');
+            } else {
+                scrollToTopButton.classList.add('opacity-0', 'pointer-events-none');
+                scrollToTopButton.classList.remove('opacity-100');
+            }
+        });
+
+        scrollToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
