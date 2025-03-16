@@ -3,6 +3,5 @@
 return [
     'header' => 'Boost Your Business',
     'subtitle' => 'Integrate with your',
-    'title' => 'BD Funnel <br> Builder',
-    'btn-text' => 'Start free trial'
+    'title' => 'BD Funnel <br> Builder'
 ];
