@@ -13,6 +13,17 @@
         "laravel-vite-plugin": "^1.2.0",
         "postcss": "^8.5.3",
         "tailwindcss": "^4.0.14",
+<<<<<<< HEAD
         "vite": "^6.0.11"
     }
+=======
+        "vite": "^6.2.1"
+    },
+    "name": "BDFBlandingpage",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/ronssrony/BDFBlandingpage.git",
+    "author": "Rayhan5513 <58135041+Rayhan5513@users.noreply.github.com>",
+    "license": "MIT"
+>>>>>>> 8d67f98817cf68d426b0ded6450c1bab30f6aae2
 }
