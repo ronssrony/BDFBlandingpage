@@ -2,5 +2,5 @@
 
 return [
     'title' => 'Welcome to BDFunnelBuilder',
-
 ];
+
