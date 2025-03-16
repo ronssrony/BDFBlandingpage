@@ -1,10 +1,10 @@
 <x-layout>
     <div class="p-4">
         <div>
-            <p class=" text-[18px] md:text-[24px] font-[300] text-center">{{ __('smarter-business.title') }}</p>
-            <h1 class="text-[36px] md:text-[60px] font-[800] text-center">{{ __('smarter-business.subtitle') }}</h1>
-            <p class="text-[16px] md:text-[18px] font-[300] text-center hidden md:block">{!! __('smarter-business.subtitle1') !!}</p>
-            <p class="text-[16px] md:text-[18px] font-[300] text-center block md:hidden">
+            <p class=" heading_1 font-light text-center">{{ __('smarter-business.title') }}</p>
+            <h1 class="title-header font-extrabold text-center">{{ __('smarter-business.subtitle') }}</h1>
+            <p class="description font-light text-center hidden md:block">{!! __('smarter-business.subtitle1') !!}</p>
+            <p class="description font-light text-center block md:hidden">
                 {{ __('smarter-business.subtitlesm') }}</p>
 
         </div>
@@ -16,12 +16,12 @@
 
                     <div>
                         <h2
-                            class="text-[40px] font-[500] leading-tight
+                            class="header_1 font-medium leading-tight
                        {{ $loop->odd ? 'text-white' : 'text-blue-700' }}">
                             {{ $item['title'] }}
                         </h2>
                         <p
-                            class="text-[16px] mt-2 font-[500]
+                            class="paragraph_1 mt-2 font-medium
                       {{ $loop->odd ? 'text-white' : 'text-blue-700' }}">
                             {{ $item['body'] }}
                         </p>
@@ -44,10 +44,10 @@
 
     <div class="p-4">
         <div>
-            <p class=" text-[18px] md:text-[24px] font-[300] text-center">{{ __('smarter-business.title2') }}</p>
-            <h1 class="text-[36px] md:text-[60px] font-[800] text-center">{{ __('smarter-business.subtitle2') }}</h1>
-            <p class="text-[16px] md:text-[18px] font-[300] text-center hidden md:block">{!!__('smarter-business.subtitle12') !!}</p>
-            <p class="text-[16px] md:text-[18px] font-[300] text-center block md:hidden">{{__('smarter-business.subtitlesm') }}</p>
+            <p class=" medium font-light text-center">{{ __('smarter-business.title2') }}</p>
+            <h1 class="title-header font-extrabold text-center">{{ __('smarter-business.subtitle2') }}</h1>
+            <p class="description font-light text-center hidden md:block">{!!__('smarter-business.subtitle12') !!}</p>
+            <p class="description font-light text-center block md:hidden">{{__('smarter-business.subtitlesm') }}</p>
 
 
         </div>
@@ -59,20 +59,20 @@
 
                     <div>
                         <h2
-                            class="text-[32px] font-[500] leading-tight
+                            class="header_2 font-medium leading-tight
                        {{ $loop->odd ? 'text-white' : 'text-blue-700' }}">
                             {{ $item['title'] }}
                         </h2>
 
                         @if (isset($item['body2']))
-                        <p class="text-[22px] mt-2 font-[500] {{ $loop->odd ? 'text-white' : 'text-blue-700' }}">
+                        <p class="header_3 mt-2 font-medium {{ $loop->odd ? 'text-white' : 'text-blue-700' }}">
                             {{ $item['body2'] }}
                         </p>
                     @endif
 
 
                         <p
-                            class="text-[14px] mt-2 font-[500]
+                            class="paragraph_2 mt-2 font-medium
                       {{ $loop->odd ? 'text-white' : 'text-blue-700' }}">
                             {{ $item['body'] }}
                         </p>
