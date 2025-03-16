@@ -1,4 +1,2 @@
-
-{{__('welcome.title')}}
-
 @include('components.boost-business')
+@include('components.faq')
