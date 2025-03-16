@@ -49,8 +49,12 @@
                 <div class="w-10 h-10 bg-orange-500 rounded-full translate-x-9 -translate-y-1 z-[999] lg:absolute lg:top-1/2 lg:left-[50%] lg:-translate-x-5 lg:-translate-y-2.5 lg:w-9 lg:h-9 lg:bg-orange-500 lg:rounded-full lg:border-2 lg:border-gray-900 lg:z-[9999]"></div>
                 <div class="absolute -translate-y-3 left-14 w-16 border-t-4 border-dashed border-gray-600 lg:absolute lg:top-[calc(50%+12px)] lg:left-1/2 lg:-translate-x-1/2 lg:w-0.5 lg:h-16 lg:border-l-2 lg:border-dashed lg:border-gray-600"></div>
                 <div class="ml-20 mt-5 lg:ml-0  lg:mt-60">
-                    <h2 class="text-4xl font-semibold lg:text-lg lg:font-bold lg:text-white">{{ $data['year_2025']['title'] }}</h2>
-                    <p class="lg:text-sm lg:text-gray-400">600+ active subscribers.</p>
+                    <h2 class="text-4xl font-semibold lg:text-lg lg:font-bold lg:text-white">{{ $data['current_premium']['title_1'] }}</h2>
+                    <h2 class="text-4xl font-semibold lg:text-lg lg:font-bold lg:text-white">{{ $data['current_premium']['title_2'] }}</h2>
+                    <div class="flex justify-center">
+                        <p class="lg:text-sm lg:text-gray-400">{{ $data['current_premium']['subtitle_1'] }}</p>
+                    <p class="lg:text-sm ml-1 lg:text-gray-400">{{ $data['current_premium']['subtitle_2'] }}</p>
+                    </div>
                 </div>
             </div> 
             <!-- Item 3 (White Circle - Top Line) -->
