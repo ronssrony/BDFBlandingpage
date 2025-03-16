@@ -1,6 +1,6 @@
 <x-layout>
 <button 
-    class="relative overflow-hidden border-2 border-blue-200 px-8 py-3 mt-20 bg-blue-500 text-white font-semibold rounded-full group w-58 h-14">
+    class="relative overflow-hidden cursor-pointer border-[4px] border-[#C7DFFF] bg-[#1565CE] text-white text-[18px] md:text-[20px] font-[700] rounded-full group w-58 h-16">
     <span class="absolute inset-0 flex items-center justify-center transition-transform duration-500 ease-out group-hover:-translate-y-9">
         Start free trial
     </span>
