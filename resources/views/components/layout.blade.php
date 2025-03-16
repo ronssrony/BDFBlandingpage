@@ -19,7 +19,7 @@
         </style>
     @endif
 </head>
-<main>
+<main class="">
     {{ $slot }}
 </main>
 </html>
