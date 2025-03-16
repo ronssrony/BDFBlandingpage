@@ -29,7 +29,7 @@
         </div>
 
         <button onclick="toggleMenu()" class="xl:hidden text-gray-600 focus:outline-none mt-2">
-            <img src="/icons/PhListBold.svg" alt="Menu" class="w-10 h-10"/>
+            <img src="/icons/PhListBold.svg" alt="Menu" class=" menuIcon transition-all duration-300 w-10 h-10"/>
         </button>
     </div>
 </nav>
@@ -67,10 +67,13 @@
     const toggleMenu = function() {
         isMenuOpen = !isMenuOpen;
         const mobileMenu = document.getElementById('mobileMenu');
+        const menuIcon = document.querySelector('.menuIcon');
         console.log('toggling') ;
         if (isMenuOpen) {
+            menuIcon.src = '/icons/GridiconsCross.svg';
             mobileMenu.classList.add('open'); // Add the "open" class to slide in the menu
         } else {
+            menuIcon.src = '/icons/PhListBold.svg';
             mobileMenu.classList.remove('open'); // Remove the "open" class to slide out the menu
         }
     }
