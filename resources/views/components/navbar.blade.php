@@ -1,4 +1,7 @@
 <!-- navbar.blade.php -->
+@php
+    $currentSection = $currentSection ?? 'home'; // Default value
+ @endphp
 <nav class="navbar  fixed top-0 z-70 min-w-full flex justify-center  max-h-[70px]  items-center min-h-[70px] transition-all duration-300">
     <div class=" transition-all duration-400 flex justify-between items-center bg-white mx-auto max-w-[1300px] lg:max-w-[1005px] xl:max-w-[1160px] min-[1300px]:max-w-[1256px] 2xl:max-w-[1300px] w-[100%] lg:w-[100%] xl:w-[100%] 2xl:w-[100%] py-3 px-4">
         <div class="w-1/6 min-w-44 cursor-pointer">
@@ -12,7 +15,8 @@
                 @foreach(__('navbar.sections') as $section)
                     <button
                         onclick="scrollToSection('{{ $section['id'] }}', '{{ $section['link'] }}')"
-                        class="{{ 'home' === $section['id'] ? __('navbar.active_class') : __('navbar.inactive_class') }}">
+                        data-id="{{ $section['id'] }}"
+                        class="nav-button {{ $currentSection === $section['id'] ? __('navbar.active_class') : __('navbar.inactive_class') }}">
                         {{$section['label']}}
                     </button>
                 @endforeach
@@ -58,7 +62,7 @@
     let isMenuOpen = false;
     let isScrolling = false;
     let navbarPos = '{{ __("navbar.navbar_position_default") }}';
-    let isActive = "home";
+    let currentSection = "{{ $currentSection }}";
     let observer = null;
     const activeClass = '{{ __("navbar.active_class") }}';
     const inactiveClass = '{{ __("navbar.inactive_class") }}';
@@ -68,7 +72,6 @@
         isMenuOpen = !isMenuOpen;
         const mobileMenu = document.getElementById('mobileMenu');
         const menuIcon = document.querySelector('.menuIcon');
-        console.log('toggling') ;
         if (isMenuOpen) {
             menuIcon.src = '/icons/GridiconsCross.svg';
             mobileMenu.classList.add('open'); // Add the "open" class to slide in the menu
@@ -77,18 +80,26 @@
             mobileMenu.classList.remove('open'); // Remove the "open" class to slide out the menu
         }
     }
-
-/*    function scrollToSection(id, link) {
-        if (!isHome) {
-            if (link) {
-                window.location.href = link;
-                return;
-            }
-        }
+    function scrollToSection(id, link) {
+        console.log('id')
+        currentSection = id; // Update the JavaScript variable
+        updateActiveClass(); // Update UI
 
         GlobalscrollToSection(id);
     }
 
+    function updateActiveClass() {
+        document.querySelectorAll('.nav-button').forEach(button => {
+            button.className = '{{__('navbar.inactive_class')}}' ;
+
+        });
+
+        const activeButton = document.querySelector(`[data-id="${currentSection}"]`);
+        if (activeButton) {
+            activeButton.className=('{{ __('navbar.inactive_class') }}');
+            activeButton.className=('{{ __('navbar.active_class') }}');
+        }
+    }
     function GlobalscrollToSection(id) {
         isScrolling = true;
         isActive = id;
@@ -110,6 +121,9 @@
             toggleMenu();
         }
     }
+/*
+
+
 
     function handleScroll() {
         if (window.scrollY > 20) {

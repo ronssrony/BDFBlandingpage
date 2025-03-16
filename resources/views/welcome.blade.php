@@ -3,6 +3,7 @@
     <div class="nav mb-28" >
         @include('components.navbar')
     </div>
+
     @include('components.hero')
     @include('components.smarter-business')
     @include('components.boost-business')
@@ -13,6 +14,5 @@
     @include('components.faq')
 
 </div>
-
 
 
