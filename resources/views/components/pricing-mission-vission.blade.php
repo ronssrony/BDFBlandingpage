@@ -1,6 +1,6 @@
 <x-layout>
 
-    <section>
+    <section class="pt-20">
         <div class="bg-cover bg-center text-white min-h-screen flex flex-col items-center justify-center p-3 sm:p-6"
             style="background-image: url('/images/price_bg.png');">
             <div class="container mx-auto px-4 py-12">
