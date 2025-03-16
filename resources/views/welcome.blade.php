@@ -1,6 +1,9 @@
+<div>
+    <div class="nav mb-28" >
+        @include('components.navbar')
+    </div>
+    @include('components.smarter-business')
+    @include('components.boost-business')
 
-<x-layout>
-    @include('components.navbar')
-
-</x-layout>
+</div>
 

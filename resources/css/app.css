@@ -11,6 +11,12 @@
 @source "../**/*.js";
 @source "../**/*.vue";
 
+
+
+
+
+
+
 @theme {
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
@@ -113,9 +119,28 @@
     .text-secondary {
         @apply text-gray-600;
     }
+    .title-header{
+        @apply text-[36px] md:text-[60px];
+    }
+
+    .header_1{
+        @apply text-[36px] md:text-[40px];
+    }
+
+    .header_2{
+        @apply text-[32px];
+    }
 
     .heading {
         @apply text-[30px] md:text-[40px] lg:text-[50px];
+    }
+
+    .heading_1{
+        @apply text-[18px] md:text-[24px];
+    }
+
+    .header_3{
+        @apply text-[22px];
     }
 
     .sub-heading {
@@ -127,7 +152,7 @@
     }
 
     .medium {
-        @apply text-[18px] md:text-[22px] lg:text-[30px];
+        @apply text-[18px] md:text-[24px] lg:text-[30px];
     }
 
     .description {
@@ -136,6 +161,14 @@
 
     .paragraph {
         @apply text-[14px] md:text-[18px];
+    }
+
+    .paragraph_1{
+        @apply text-[16px];
+    }
+
+    .paragraph_2{
+        @apply text-[14px];
     }
 
     .button_text {

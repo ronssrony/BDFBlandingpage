@@ -49,6 +49,7 @@ return [
     // Button text
     'start_today' => 'login',
 
+
     // Classes
     'inactive_class' => 'nav-link px-3 py-1 font-[300] text-sm  rounded-full text-[#000000] whitespace-nowrap',
     'active_class' => 'px-3 py-1 bg-[#ED6F10] font-normal text-sm text-white rounded-full hover:bg-[#F99712]/90 whitespace-nowrap scale-105 opacity-100',

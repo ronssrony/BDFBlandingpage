@@ -1,5 +1,5 @@
 <!-- navbar.blade.php -->
-<nav class="navbar fixed top-5 z-70 min-w-full flex justify-center max-h-[70px] items-center min-h-[70px] transition-all duration-300">
+<nav class="navbar  fixed top-0 z-70 min-w-full flex justify-center  max-h-[70px]  items-center min-h-[70px] transition-all duration-300">
     <div class=" transition-all duration-400 flex justify-between items-center bg-white mx-auto max-w-[1300px] lg:max-w-[1005px] xl:max-w-[1160px] min-[1300px]:max-w-[1256px] 2xl:max-w-[1300px] w-[100%] lg:w-[100%] xl:w-[100%] 2xl:w-[100%] py-3 px-4">
         <div class="w-1/6 min-w-44 cursor-pointer">
             <a href="{{ route('home') }}">
@@ -18,7 +18,7 @@
                 @endforeach
             </div>
 
-            <div class="hidden min-[1100px]:flex items-center space-x-4">
+            <div class="hidden xl:flex items-center space-x-4">
                 @include('components.language-selector')
                 <button
                     class=" bg-[#1565ce] text-white px-4 py-2 rounded-full hover:bg-[#1565ce]/90 transition-colors whitespace-nowrap"
@@ -28,14 +28,14 @@
             </div>
         </div>
 
-        <button onclick="toggleMenu()" class="lg:hidden text-gray-600 focus:outline-none mt-2">
-            <i class="font-bold text-black text-3xl {{ true ? 'fa-solid fa-times' : 'fa-solid fa-bars' }}"></i>
+        <button onclick="toggleMenu()" class="xl:hidden text-gray-600 focus:outline-none mt-2">
+            <img src="/icons/PhListBold.svg" alt="Menu" class="w-10 h-10"/>
         </button>
     </div>
 </nav>
 
-<div id="mobileMenu" class="navslide lg:hidden bg-[#F4F9FF] rounded w-full sm:w-1/3 z-40 fixed h-screen top-[70px] left-0 right-0 sm:right-9 flex flex-col py-5 md:pt-14 items-center" style="transform: translateX(100%); transition: transform 0.2s linear;">
-    <div class="min-[800px]:hidden flex flex-col gap-5 px-5">
+<div id="mobileMenu" class="sidebar xl:hidden   rounded w-full z-40    flex flex-col py-5 md:pt-14 items-center" style="">
+    <div class=" min-[800px]:hidden flex flex-col gap-5 px-5">
         @foreach(__('navbar.sections') as $section)
             <button
                 onclick="scrollToSection('{{ $section['id'] }}', '{{ $section['link'] }}')"
@@ -44,8 +44,8 @@
             </button>
         @endforeach
     </div>
-    <div class="lg:hidden flex flex-col gap-5 p-10 h-full items-start">
-        @include('components.language-selector', ['toggleMenu' => true])
+    <div class="xl:hidden flex flex-col gap-5 p-10 h-full items-start">
+        @include('components.language-selector')
         <button
             class=" bg-[#1565ce] w-36 text-white px-4 py-2 rounded-full hover:bg-[#1565ce]/90 transition-colors whitespace-nowrap"
             onclick="scrollToSection('contact')">
@@ -64,17 +64,18 @@
     const inactiveClass = '{{ __("navbar.inactive_class") }}';
     const isHome = {{ 'home'? 'true' : 'false' }};
 
-    function toggleMenu() {
+    const toggleMenu = function() {
         isMenuOpen = !isMenuOpen;
         const mobileMenu = document.getElementById('mobileMenu');
+        console.log('toggling') ;
         if (isMenuOpen) {
-            mobileMenu.style.transform = 'translateX(0)';
+            mobileMenu.classList.add('open'); // Add the "open" class to slide in the menu
         } else {
-            mobileMenu.style.transform = 'translateX(100%)';
+            mobileMenu.classList.remove('open'); // Remove the "open" class to slide out the menu
         }
     }
 
-    function scrollToSection(id, link) {
+/*    function scrollToSection(id, link) {
         if (!isHome) {
             if (link) {
                 window.location.href = link;
@@ -158,11 +159,27 @@
             GlobalscrollToSection('home');
         });
         window.addEventListener("scroll", handleScroll);
-    });
+    });*/
 </script>
 
 <style>
     .nav-link:hover {
         background-color: #f1f1f1;
     }
+    .sidebar {
+        position: fixed;
+        top: 0;
+        right: -250px; /* Initially hidden off-screen to the left */
+        width: 250px;
+        height: 100%;
+        background-color: #333;
+        color: white;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .sidebar.open {
+        transform: translateX(-250px);
+        transition: transform 0.3s ease-in-out;
+    }
+
 </style>
