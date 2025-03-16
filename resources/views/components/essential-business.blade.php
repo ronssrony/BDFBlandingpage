@@ -52,14 +52,29 @@
 </div>
 
 
-<div class="relative p-10 mb-10">
+<div class="hidden sm:block relative p-10"> 
     <img src="{{ asset('images/essential-business/seamless-customer-support.png') }}" alt="" class="w-full h-auto">
-    <div class="absolute inset-0 flex flex-col justify-center items-start text-white px-5 sm:px-10 lg:px-20">
-        <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold">Seamless Customer Support</h1>
-        <p class="text-base sm:text-lg md:text-xl mt-2">Boost Customer Satisfaction & Resolve Issues Faster!</p>
-        @include('components.free-trail-button')
+    <div class="absolute inset-0 flex flex-col justify-center items-start text-white md:px-15 lg:px-20 mt-[-2%] md:mt-[-1%]">
+        <h1 class="lg:text-[48px] md:text-[28px] font-bold">Seamless Customer Support</h1>
+        <p class="text-base sm:text-lg md:text-xl mt-2 md:mt-[0]">Boost Customer Satisfaction & Resolve Issues Faster!</p>
+        
+        <div class="lg:mt-7 md:mt-2">
+             @include('components.free-trail-button')
+        </div>
     </div>
 </div>
+<div class="sm:hidden relative p-5"> 
+    <img src="{{ asset('images/essential-business/sm-bg.svg') }}" alt="" class="w-full h-auto">
+    <div class="absolute inset-0 ml-[12%] mr-[7%] mt-10 justify-center items-start text-white   ">
+        <h1 class="text-[36px] font-bold leading-[1.1]">Seamless Customer Support</h1>
+        <p class="  text-xl mt-3 font-thin ">Boost Customer Satisfaction & Resolve Issues Faster!</p>
+        
+        <div class="mt-7">
+             @include('components.free-trail-button')
+        </div>
+    </div>
+</div>
+
 
 
 </x-layout>
