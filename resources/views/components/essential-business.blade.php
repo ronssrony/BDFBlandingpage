@@ -1,7 +1,7 @@
 <x-layout>
 
 <p class="text-center mt-10 mb-2 text-gray-800 text-lg md:text-xl lg:text-2xl">
-    Why BD Funnel Builder is
+{{ __('essential.title1') }}
 </p>
 
 <div class="flex items-center justify-center">
@@ -9,7 +9,7 @@
         <img src="{{ asset('images/essential-business/heading-background.png') }}" alt="" class="absolute inset-0 w-full  h-full  object-cover mt-6 sm:mt-0 ">
         <h1 class=" text-[32px] md:text-[59.5px] lg:text-[59.5px] font-bold text-black absolute text-center px-4 
                    w-full break-words  md:whitespace-nowrap ml-[-7%] mb-1">
-            Essential for Your Business
+                   {{ __('essential.subtitle') }}
         </h1>
     </div>
 </div>
@@ -20,11 +20,7 @@
             // Include the PHP file containing the data
             $data = include(app_path('../lang/en/essential.php')); // Adjust the path if needed
         @endphp
-
         @foreach($data as $i)
-        <div class="">
-
-        
         <div class="relative w-[90%] md:w-[80%] lg:w-[100%] mx-auto  p-1.5">
                 @if($loop->index % 2 == 0)
                     <img src="{{ asset('images/essential-business/section2-bg.png') }}" alt="Image {{ $loop->index }}" class="h-[140px] w-full object-cover">
@@ -46,7 +42,7 @@
                     </div>
                 @endif
             </div>
-            </div>
+            
         @endforeach
     </div>
 </div>
