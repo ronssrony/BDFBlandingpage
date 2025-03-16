@@ -13,6 +13,8 @@
 
     @include('components.one-stop-solution')
     @include('components.team-behind')
+
+    @include('components.brands-marquee')
     @include('components.faq')
 
 </div>
