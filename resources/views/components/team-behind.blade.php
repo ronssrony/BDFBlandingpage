@@ -1,7 +1,7 @@
 
 <x-layout>
     <div class="dark:bg-gray-800 mt-4 py-6 sm:py-8 lg:py-12">
-        <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+        <div class="max-w-[1300px] mx-auto  px-4 md:px-8">
             <div class="flex justify-center items-center">
                 <h3 class="max-w-screen-sm lg:text-[24px] md:text-[20px] text-[18px] font-[300] text-gray-500 dark:text-gray-300">
                     {{__('teambehind.subtitle')}}
