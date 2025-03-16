@@ -27,15 +27,16 @@
 </head>
 <body class="">
     <!-- Hero Section -->
-  <section class="bg-[#1565CE] container text-white rounded-xl py-8 md:py-10 sm:rounded-lg sm:h-[192px] sm:w-[345px] relative">
-      <div class=" px-4 md:px-8">
+    <div class="pt-20">
+  <section class="bg-[#1565CE] mx-auto w-full text-white rounded-xl py-8 md:py-10 sm:rounded-lg relative">
+      <div class="container px-4 md:px-8">
           <div class="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10 z-10">
               <img src="/images/mask.png" alt="Mask Top" class="absolute top-0 right-0 w-40 md:block z-0">
 
               <!-- Text content -->
-              <div class="sm:text-center w-full md:w-1/2">
-                  <h2 class="text-[24px] md:text-2xl font-semibold mb-2">Ready to Build</h2>
-                  <h1 class="text-[40px] md:text-5xl sm:text-6xl font-bold">Your First Funnel?</h1>
+              <div class="sm:text-center md:w-1/2">
+                  <h2 class="text-[24px] md:text-2xl  text-left font-semibold mb-2">Ready to Build</h2>
+                  <h1 class="text-[40px] md:text-5xl text-left sm:text-6xl font-bold">Your First Funnel?</h1>
               </div>
 
               <!-- Form and button section -->
@@ -78,23 +79,23 @@
 
                 <!-- Social Media Icons -->
                 <div class=" flex justify-center md:justify-end mt-4 md:mt-0 space-x-2">
-                    <a href="#" class="text-blue-600 bg-blue-50 w-8 h-8 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
-                        <i class="ri-facebook-fill"></i>
+                    <a href="#" class="text-blue-600 bg-blue-50 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
+                        <i class="ri-facebook-fill text-xl"></i>
                     </a>
-                    <a href="#" class="text-blue-600 bg-blue-50 w-8 h-8 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
-                        <i class="ri-linkedin-fill"></i>
+                    <a href="#" class="text-blue-600 bg-blue-50 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
+                        <i class="ri-linkedin-fill text-xl"></i>
                     </a>
-                    <a href="#" class="text-blue-600 bg-blue-50 w-8 h-8 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
-                        <i class="ri-instagram-line"></i>
+                    <a href="#" class="text-blue-600 bg-blue-50 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
+                        <i class="ri-instagram-line text-xl"></i>
                     </a>
-                    <a href="#" class="text-blue-600 bg-blue-50 w-8 h-8 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
-                        <i class="ri-whatsapp-line"></i>
+                    <a href="#" class="text-blue-600 bg-blue-50 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
+                        <i class="ri-whatsapp-line text-xl"></i>
                     </a>
-                    <a href="#" class="text-blue-600 bg-blue-50 w-8 h-8 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
-                        <i class="ri-telegram-2-fill"></i>
+                    <a href="#" class="text-blue-600 bg-blue-50 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
+                        <i class="ri-telegram-2-fill text-xl"></i>
                     </a>
-                    <a href="#" class="text-blue-600 bg-blue-50 w-8 h-8 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
-                        <i class="ri-youtube-fill"></i>
+                    <a href="#" class="text-blue-600 bg-blue-50 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
+                        <i class="ri-youtube-fill text-xl"></i>
                     </a>
                 </div>
             </div>
@@ -159,7 +160,7 @@
     <button id="scrollToTop" class="fixed bottom-6 right-6 bg-black text-white text-2xl flex items-center justify-center w-10 h-10 rounded-full shadow-lg transition-opacity duration-300 hover:bg-gray-800 focus:outline-none z-50 scroll-to-top opacity-0 pointer-events-none">
         <i class="ri-arrow-up-line"></i>
     </button>
-
+</div>
     <script>
         // Scroll to top functionality
         const scrollToTopButton = document.getElementById('scrollToTop');
