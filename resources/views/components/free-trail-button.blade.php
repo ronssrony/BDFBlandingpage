@@ -1,0 +1,51 @@
+<x-layout>
+<button 
+    class="relative overflow-hidden border-2 border-blue-200 px-8 py-3 mt-20 bg-blue-500 text-white font-semibold rounded-full group w-58 h-14">
+    <span class="absolute inset-0 flex items-center justify-center transition-transform duration-500 ease-out group-hover:-translate-y-9">
+        Start free trial
+    </span>
+    <span class="absolute inset-0 flex items-center justify-center translate-y-8 opacity-0 transition-all duration-500 ease-out group-hover:translate-y-0 group-hover:opacity-100">
+    Start free trial
+    <svg class="w-10 h-6 ml-2" viewBox="0 0 50 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 10H40M40 10L30 0M40 10L30 20" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+</span>
+</button>
+</x-layout>
+
+<style>
+.group::before {
+    content: '';
+    position: absolute;
+    width: 300%;
+    height: 300%;
+    top: 100%;
+    left: 50%;
+    background-color: rgba(218, 94, 0, 1); 
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%;
+    transition: transform 0.8s ease, width 0.8s ease, height 0.8s ease;
+}
+    .group:hover::before {
+        transform: translate(-50%, -50%) scale(1);
+        width: 400%;
+        height: 400%;
+    }
+    .group:hover {
+        background: linear-gradient(to top, #2563eb 0%, #1d4ed8 100%);
+    }
+</style>
+
+<script>
+    function updateBackground(event, button) {
+        const rect = button.getBoundingClientRect();
+        const x = ((event.clientX - rect.left) / rect.width) * 100;
+        const y = ((event.clientY - rect.top) / rect.height) * 100;
+        button.style.setProperty('--x', x + '%');
+        button.style.setProperty('--y', y + '%');
+    }
+    function resetBackground(button) {
+        button.style.setProperty('--x', '50%');
+        button.style.setProperty('--y', '50%');
+    }
+</script>
