@@ -164,7 +164,11 @@
     }
 
     .paragraph {
-        @apply text-[14px] md:text-[18px];
+        @apply text-[14px]  md:text-[18px];
+    }
+
+    .paragraph_small {
+        @apply text-[10px]  md:text-[14px];
     }
 
     .paragraph_1{
