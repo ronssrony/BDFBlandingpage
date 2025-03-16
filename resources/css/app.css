@@ -143,6 +143,10 @@
         @apply text-[22px];
     }
 
+    .header_4{
+        @apply text-[20px] md:text-[40px];
+    }
+
     .sub-heading {
         @apply text-[22px] md:text-[30px] lg:text-[40px];
     }
