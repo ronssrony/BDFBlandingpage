@@ -1,5 +1,5 @@
 <x-layout>
-    <div class="text-start py-4 pl-60">
+    <div class="text-start py-4 pl-60 pt-20">
         <h1 class="heading_1 font-light">{{ __('unlimited-templates.title') }}</h1>
         <h2 class="font-extrabold title-header">{{ __('unlimited-templates.header') }}</h2>
         <p class="font-medium header_4">{{ __('unlimited-templates.subtitle') }}</p>
