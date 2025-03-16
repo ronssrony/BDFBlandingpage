@@ -4,15 +4,18 @@
         @include('components.navbar')
     </div>
 
+    @include('components.hero')
+    @include('components.pricing-mission-vission')
+    @include('components.growth-story')
 
     @include('components.smarter-business')
     @include('components.boost-business')
     @include('components.essential-business')
-    @include('components.growth-story')
+    @include('components.unlimited-templates')
     @include('components.one-stop-solution')
     @include('components.team-behind')
     @include('components.faq')
-
+    @include('components.footer')
 </div>
 
 
