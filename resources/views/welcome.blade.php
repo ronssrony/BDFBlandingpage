@@ -12,6 +12,8 @@
     @include('components.pricing-mission-vission')
     @include('components.growth-story')
     @include('components.team-behind')
+
+    @include('components.brands-marquee')
     @include('components.faq')
     @include('components.footer')
 </div>
