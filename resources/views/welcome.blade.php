@@ -4,6 +4,5 @@
     </div>
     @include('components.smarter-business')
     @include('components.boost-business')
-
 </div>
 
