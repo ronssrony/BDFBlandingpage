@@ -1,5 +1,7 @@
 
 @include('components.essential-business')
+@include('components.one-stop-solution')
+@include('components.team-behind')
 
 
 <x-layout>
@@ -7,4 +9,6 @@
       {{__('welcome.title')}}
   </h1>
 </x-layout>
+
+
 
