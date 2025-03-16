@@ -34,7 +34,9 @@
         background-color: #002B79;
     }
 }
-
+.body{
+    background-color: white;
+}
 /* Custom Fonts */
 @layer base {
     .font-sans {
@@ -141,6 +143,10 @@
 
     .header_3{
         @apply text-[22px];
+    }
+
+    .header_4{
+        @apply text-[20px] md:text-[40px];
     }
 
     .sub-heading {

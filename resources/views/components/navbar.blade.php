@@ -2,8 +2,8 @@
 @php
     $currentSection = $currentSection ?? 'home'; // Default value
  @endphp
-<nav class="navbar  fixed top-0 z-70 min-w-full flex justify-center  max-h-[70px]  items-center min-h-[70px] transition-all duration-300">
-    <div class=" transition-all duration-400 flex justify-between items-center bg-white mx-auto max-w-[1300px] lg:max-w-[1005px] xl:max-w-[1160px] min-[1300px]:max-w-[1256px] 2xl:max-w-[1300px] w-[100%] lg:w-[100%] xl:w-[100%] 2xl:w-[100%] py-3 px-4">
+<nav class="navbar  fixed top-0 z-70 min-w-full flex justify-center  max-h-[70px]  items-center min-h-[70px] transition-all duration-300 ">
+    <div class=" transition-all duration-400 flex bg-white justify-between items-center  mx-auto max-w-[1300px] lg:max-w-[1005px] xl:max-w-[1160px] min-[1300px]:max-w-[1256px] 2xl:max-w-[1300px] w-[100%] lg:w-[100%] xl:w-[100%] 2xl:w-[100%] py-3 px-4">
         <div class="w-1/6 min-w-44 cursor-pointer">
             <a href="{{ route('home') }}">
                 <img class=" " src="/BFLOGO.png" alt="Logo"/>
@@ -11,12 +11,12 @@
         </div>
 
         <div class="menus flex gap-5 px-5">
-            <div class=" hidden min-[800px]:flex gap-2 items-center bg-[#F4F9FF] border-2 border-[#BDDAFF] pl-1 pr-4 rounded-full">
+            <div class=" nav-buttons hidden min-[800px]:flex gap-2 items-center bg-[#F4F9FF] border-2 border-[#BDDAFF] pl-1 pr-4 rounded-full">
                 @foreach(__('navbar.sections') as $section)
                     <button
                         onclick="scrollToSection('{{ $section['id'] }}', '{{ $section['link'] }}')"
                         data-id="{{ $section['id'] }}"
-                        class="nav-button {{ $currentSection === $section['id'] ? __('navbar.active_class') : __('navbar.inactive_class') }}">
+                        class=" inactive {{ $currentSection === $section['id'] ? __('navbar.active_class') : __('navbar.inactive_class') }}">
                         {{$section['label']}}
                     </button>
                 @endforeach
@@ -43,7 +43,7 @@
         @foreach(__('navbar.sections') as $section)
             <button
                 onclick="scrollToSection('{{ $section['id'] }}', '{{ $section['link'] }}')"
-                class="">
+                class="nav-button">
                 {{ $section['label'] }}
             </button>
         @endforeach
@@ -83,21 +83,25 @@
     function scrollToSection(id, link) {
         console.log('id')
         currentSection = id; // Update the JavaScript variable
-        updateActiveClass(); // Update UI
 
+        updateActiveClass(); // Update UI
+        console.log('link')
         GlobalscrollToSection(id);
     }
 
-    function updateActiveClass() {
-        document.querySelectorAll('.nav-button').forEach(button => {
-            button.className = '{{__('navbar.inactive_class')}}' ;
 
+    function updateActiveClass() {
+        document.querySelectorAll(".nav-button").forEach(button => {
+            button.classList.remove("{{ __('navbar.active_class') }}");
+            button.classList.add("{{ __('navbar.inactive_class') }}");
+            console.log("Setting inactive class");
         });
 
         const activeButton = document.querySelector(`[data-id="${currentSection}"]`);
         if (activeButton) {
-            activeButton.className=('{{ __('navbar.inactive_class') }}');
-            activeButton.className=('{{ __('navbar.active_class') }}');
+            activeButton.classList.remove("{{ __('navbar.inactive_class') }}");
+            activeButton.classList.add("{{ __('navbar.active_class') }}");
+            console.log("Setting active class");
         }
     }
     function GlobalscrollToSection(id) {
@@ -185,7 +189,7 @@
     }
     .sidebar {
         position: fixed;
-        top: 0;
+        top: 70px;
         right: -250px; /* Initially hidden off-screen to the left */
         width: 250px;
         height: 100%;
@@ -198,5 +202,7 @@
         transform: translateX(-250px);
         transition: transform 0.3s ease-in-out;
     }
+
+
 
 </style>
