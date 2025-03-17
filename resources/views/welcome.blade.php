@@ -1,6 +1,5 @@
-
 <div>
-    <div class="nav mb-28" >
+    <div class="nav mb-28">
         @include('components.navbar')
     </div>
     @include('components.brands-marquee')
@@ -14,8 +13,6 @@
     @include('components.team-behind')
     @include('components.faq')
     @include('components.footer')
+    @include('components.pricing')
 
 </div>
-
-
-
