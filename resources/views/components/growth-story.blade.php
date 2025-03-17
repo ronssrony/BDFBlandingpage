@@ -101,7 +101,7 @@
                         </div>
                         <p class="lg:text-[14px] text-left ml-1 lg:text-gray-400 lg:whitespace-nowrap">{{ __('growth-story.monthly_renewals.subtitle_3') }}</p>
                     </div>
-                </div> 
+                </div>
               <!-- Item 5 (White Circle - Top Line) -->
               <div class="lg:relative lg:text-center lg:w-full md:w-1/6 pb-8 mb-6">
                    
@@ -147,9 +147,9 @@
                         </div>
                         <span class="lg:text-[14px] block text-left lg:ml-1 lg:text-nowrap  lg:text-gray-400">{{ __('growth-story.positive_feedback.subtitle_4') }}</span>
                     </div>
-                </div> 
-                
-    
+                </div>
+
+
             </div>
         </div>   
     
