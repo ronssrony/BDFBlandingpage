@@ -105,43 +105,43 @@
         @apply text-gray-600;
     }
     .title-header {
-        @apply text-[36px] md: text-[60px];
+        @apply text-[36px] md:text-[60px];
     }
     .header_1 {
-        @apply text-[36px] md: text-[40px];
+        @apply text-[36px] md:text-[40px];
     }
     .header_2 {
         @apply text-[32px];
     }
     .heading {
-        @apply text-[30px] md: text-[40px] lg: text-[50px];
+        @apply text-[30px] md:text-[40px] lg:text-[50px];
     }
     .heading_1 {
-        @apply text-[18px] md: text-[24px];
+        @apply text-[18px] md:text-[24px];
     }
     .header_3 {
         @apply text-[22px];
     }
     .header_4 {
-        @apply text-[20px] md: text-[40px];
+        @apply text-[20px] md:text-[40px];
     }
     .sub-heading {
-        @apply text-[22px] md: text-[30px] lg: text-[40px];
+        @apply text-[22px] md:text-[30px] lg:text-[40px];
     }
     .card-heading {
-        @apply text-[22px] md: text-[24px];
+        @apply text-[22px] md:text-[24px];
     }
     .medium {
-        @apply text-[18px] md: text-[24px] lg: text-[30px];
+        @apply text-[18px] md:text-[24px] lg:text-[30px];
     }
     .description {
-        @apply text-[16px] md: text-[18px];
+        @apply text-[16px] md:text-[18px];
     }
     .paragraph {
-        @apply text-[14px] md: text-[18px];
+        @apply text-[14px] md:text-[18px];
     }
     .paragraph_small {
-        @apply text-[10px] md: text-[14px];
+        @apply text-[10px] md:text-[14px];
     }
     .paragraph_1 {
         @apply text-[16px];
@@ -150,7 +150,7 @@
         @apply text-[14px];
     }
     .button_text {
-        @apply text-[16px] md: text-[20px] lg: text-[24px];
+        @apply text-[16px] md:text-[20px] lg:text-[24px];
     }
     .card-tittle {
         @apply bg-[#064C61] w-full;
