@@ -37,7 +37,7 @@
     </div>
 
     <div class="flex justify-center pb-16">
-        @include('components.free-trail-button')
+        @include('components.trial-button')
     </div>
 
 

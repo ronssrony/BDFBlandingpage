@@ -58,7 +58,7 @@
         <div class="absolute inset-0 flex flex-col justify-center items-start text-white px-5 md:px-15 lg:px-20">
             <h1 class="text-3xl md:text-4xl font-bold">{{ __('essential.footer-head') }}</h1>
             <p class="text-base  md:text-xl  lg:mb-5">{{ __('essential.footer-body') }}</p>
-            @include('components.free-trail-button')
+            @include('components.trial-button')
         </div>
     </div>
 
@@ -67,7 +67,7 @@
         <div class="absolute inset-0 flex flex-col  items-start text-white px-15 mt-[12%] ">
             <h1 class="text-[28px]  font-bold leading-tight">{{ __('essential.footer-head') }}</h1>
             <p class="text-base mt-2 mb-5">{{ __('essential.footer-body') }}</p>
-            @include('components.free-trail-button')
+            @include('components.trial-button')
         </div>
     </div>
 </div>
