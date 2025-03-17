@@ -137,6 +137,11 @@
                 </div>
             </div>
         </div>
+        <div class="">
+            <img src="{{ asset('hero/superFast-website.png') }}" alt="">
+            <img src="{{ asset('hero/abandonedOrders.png') }}" alt="">
+            <img src="{{ asset('hero/fakeOrderSolution.png') }}" alt="">
+        </div>
     </x-layout>
 
 </body>
