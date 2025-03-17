@@ -18,7 +18,7 @@
             <!-- Item 1 (White Circle - Top Line) -->
             <div class="lg:relative lg:text-center lg:w-full md:w-1/6 pb-8 mb-6">
                
-                <div class="w-8 h-8 bg-white rounded-full translate-x-9 -translate-y-1 z-[999]
+                <div class="w-8 h-8 bg-white rounded-full translate-x-9 -translate-y-1 z-[20]
                             lg:absolute lg:top-1/2 lg:left-[50%] lg:-translate-x-5 lg:-translate-y-2.5 
                             lg:w-10 lg:h-10 lg:bg-white lg:rounded-full lg:border-4 lg:border-gray-900">
                 </div>
@@ -45,7 +45,7 @@
 
             <!-- Item 2 (Orange Circle - Bottom Line) -->
              <div class="lg:relative lg:text-center lg:w-full md:w-1/6 pb-8 mb-6">
-                <div class="w-8 h-8 bg-orange-500 rounded-full translate-x-9 -translate-y-1 z-[999] lg:absolute lg:top-1/2 lg:left-[50%] lg:-translate-x-5 lg:-translate-y-2.5 lg:w-9 lg:h-9 lg:bg-orange-500 lg:rounded-full lg:border-2 lg:border-gray-900 lg:z-[9999]"></div>
+                <div class="w-8 h-8 bg-orange-500 rounded-full translate-x-9 -translate-y-1 z-[20] lg:absolute lg:top-1/2 lg:left-[50%] lg:-translate-x-5 lg:-translate-y-2.5 lg:w-9 lg:h-9 lg:bg-orange-500 lg:rounded-full lg:border-2 lg:border-gray-900 lg:z-[20]"></div>
                 <div class="absolute -translate-y-3 left-14 w-16 border-t-4 border-dashed border-gray-600 lg:absolute lg:top-[calc(50%+12px)] lg:left-1/2 lg:-translate-x-1/2 lg:w-0.5 lg:h-20 lg:border-l-2 lg:border-dashed lg:border-gray-600"></div>
                 <div class="ml-20 mt-5 lg:ml-0  lg:mt-72 lg:flex lg:flex-col lg:items-center lg:text-center">
 
@@ -68,7 +68,7 @@
             <!-- Item 3 (White Circle - Top Line) -->
             <div class="lg:relative lg:text-center lg:w-full md:w-1/6 pb-8 mb-6">
                
-                <div class="w-8 h-8 bg-white rounded-full translate-x-9 -translate-y-1 z-[999]
+                <div class="w-8 h-8 bg-white rounded-full translate-x-9 -translate-y-1 z-[20]
                             lg:absolute lg:top-1/2 lg:left-[50%] lg:-translate-x-5 lg:-translate-y-2.5 
                             lg:w-10 lg:h-10 lg:bg-white lg:rounded-full lg:border-4 lg:border-gray-900">
                 </div>
@@ -93,7 +93,7 @@
             </div>
             <!-- Item 2 (Orange Circle - Bottom Line) -->
             <div class="lg:relative lg:text-center lg:w-full md:w-1/6 pb-8 mb-6">
-                <div class="w-8 h-8 bg-orange-500 rounded-full translate-x-9 -translate-y-1 z-[999] lg:absolute lg:top-1/2 lg:left-[50%] lg:-translate-x-5 lg:-translate-y-2.5 lg:w-9 lg:h-9 lg:bg-orange-500 lg:rounded-full lg:border-2 lg:border-gray-900 lg:z-[9999]"></div>
+                <div class="w-8 h-8 bg-orange-500 rounded-full translate-x-9 -translate-y-1 z-[20] lg:absolute lg:top-1/2 lg:left-[50%] lg:-translate-x-5 lg:-translate-y-2.5 lg:w-9 lg:h-9 lg:bg-orange-500 lg:rounded-full lg:border-2 lg:border-gray-900 lg:z-[9999]"></div>
                 <div class="absolute -translate-y-3 left-14 w-16 border-t-4 border-dashed border-gray-600 lg:absolute lg:top-[calc(50%+12px)] lg:left-1/2 lg:-translate-x-1/2 lg:w-0.5 lg:h-20 lg:border-l-2 lg:border-dashed lg:border-gray-500"></div>
                 <div class="ml-20 mt-5 lg:ml-0  lg:mt-72 lg:text-center">
                     <h2 class="text-2xl text-left font-semibold lg:text-xl lg:font-bold lg:text-white">{{ __('growth-story.monthly_renewals.title_1') }}</h2>
@@ -107,7 +107,7 @@
           <!-- Item 5 (White Circle - Top Line) -->
           <div class="lg:relative lg:text-center lg:w-full md:w-1/6 pb-8 mb-6">
                
-            <div class="w-8 h-8 bg-white rounded-full translate-x-9 -translate-y-1 z-[999]
+            <div class="w-8 h-8 bg-white rounded-full translate-x-9 -translate-y-1 z-[20]
                         lg:absolute lg:top-1/2 lg:left-[50%] lg:-translate-x-5 lg:-translate-y-2.5 
                         lg:w-10 lg:h-10 lg:bg-white lg:rounded-full lg:border-4 lg:border-gray-900">
             </div>
@@ -138,7 +138,7 @@
         </div>
             <!-- Item 2 (Orange Circle - Bottom Line) -->
             <div class="lg:relative lg:text-center lg:w-full md:w-1/6 pb-8 mb-6">
-                <div class="w-8 h-8 bg-orange-500 rounded-full translate-x-9 -translate-y-1 z-[999] lg:absolute lg:top-1/2 lg:left-[50%] lg:-translate-x-5 lg:-translate-y-2.5 lg:w-9 lg:h-9 lg:bg-orange-500 lg:rounded-full lg:border-2 lg:border-gray-900 lg:z-[9999]"></div>
+                <div class="w-8 h-8 bg-orange-500 rounded-full translate-x-9 -translate-y-1 z-[20] lg:absolute lg:top-1/2 lg:left-[50%] lg:-translate-x-5 lg:-translate-y-2.5 lg:w-9 lg:h-9 lg:bg-orange-500 lg:rounded-full lg:border-2 lg:border-gray-900 lg:z-[9999]"></div>
                 <div class="absolute -translate-y-3 left-14 w-16 border-t-4 border-dashed border-gray-500 lg:absolute lg:top-[calc(50%+12px)] lg:left-1/2 lg:-translate-x-1/2 lg:w-0.5 lg:h-20 lg:border-l-2 lg:border-dashed lg:border-gray-500"></div>
                 <div class="ml-20 mt-5 lg:ml-0  lg:mt-72">
                     <h2 class="text-2xl font-bold lg:text-nowrap text-left lg:text-xl lg:font-bold lg:text-white">{{ __('growth-story.positive_feedback.title_1') }}</h2>

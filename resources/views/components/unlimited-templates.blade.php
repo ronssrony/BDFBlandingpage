@@ -1,4 +1,4 @@
-<x-layout>
+<div>
     <div class="text-start py-4 pl-60 pt-20">
         <h1 class="heading_1 font-light">{{ __('unlimited-templates.title') }}</h1>
         <h2 class="font-extrabold title-header">{{ __('unlimited-templates.header') }}</h2>
@@ -15,13 +15,7 @@
         <title>Wave-Like Continuous Slider</title>
 
         <style>
-            body {
-                font-family: Arial, sans-serif;
-                background-color: #f5f5f5;
-                text-align: center;
-                padding: 20px;
-                overflow-x: hidden;
-            }
+
 
             .slider-container {
                 width: 100%;
@@ -130,4 +124,4 @@
 
     </html>
 
-</x-layout>
+</div>
