@@ -213,7 +213,7 @@
             </div>
         </div>
         <div class="flex justify-center mt-10 pb-16">
-            @include('components.free-trail-button')
+            @include('components.trial-button')
         </div>
     </div>
 </x-layout>

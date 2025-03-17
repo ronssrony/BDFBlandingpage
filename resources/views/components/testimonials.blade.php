@@ -3,7 +3,7 @@
         <h1 class="medium font-light">{{ __('testimonial.title') }}</h1>
         <h2 class="font-extrabold title-header">{{ __('testimonial.header') }}</h2>
     </div>
-    <div class="flex justify-center relative ">
+    <div class="flex justify-center relative  ">
         <div class="max-w-[1300px] w-full">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
@@ -30,7 +30,10 @@
                 </div>
 
                 <!-- Fixed pagination -->
-                <div class="swiper-pagination"></div>
+                <div class="swiper-pagination">
+
+                </div>
+
             </div>
         </div>
     </div>
@@ -43,13 +46,12 @@
 
     <!-- Custom styles for pagination -->
 
-
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             var swiper = new Swiper('.mySwiper', {
                 loop: true,
                 slidesPerView: 3,
-                spaceBetween: 5,
+                clickable: true,
                 pagination: {
                     el: '.swiper-pagination',
                     clickable: true,
@@ -60,7 +62,7 @@
                         slidesPerView: 1
                     },
                     768: {
-                        slidesPerView: 3
+                        slidesPerView: 2
                     },
                     1024: {
                         slidesPerView: 3

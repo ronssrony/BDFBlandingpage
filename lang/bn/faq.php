@@ -1,6 +1,8 @@
 <?php
 
 return [
+    'header'=> 'ক্লায়েন্টের মনে সাধারণ প্রশ্ন',
+    'title' => 'সচরাচর জিজ্ঞাসিত প্রশ্ন',
     'items' => [
         [
             'question' => 'BD Funnel Builder কী?',
