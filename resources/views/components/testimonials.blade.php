@@ -5,7 +5,7 @@
     </div>
 
     <!-- Swiper Container -->
-<div class="max-w-[1300px] overflow-x-hidden">
+<div class="max-w-[1300px] overflow-x-hidden relative">
     <div class="max-w-[320px] " >
         <div class="swiper-container flex " >
 
@@ -36,9 +36,7 @@
         <!-- Pagination -->
         <div class="swiper-pagination"></div>
 
-        <!-- Navigation -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        
     </div>
 </div>
 
