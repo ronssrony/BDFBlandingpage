@@ -11,20 +11,21 @@ return [
     'privacy' => 'Privacy Policy',
     'license' => 'Licenses',
     'refund' => 'Refund Policy',
-    'phone' => 'Phone:',
+
     'number' => '+880 1404 011 056',
     'copyright' => '© 2025 BDFunnelBuilder. All rights reserved.',
-    
+
     'company' => 'Company',
     'careers' => 'Careers',
     'contact' => 'Contact',
     'about' => 'About us',
     'news' => 'News',
-    
+
     'legal' => 'Legal',
     'phone' => 'Phone:',
+    'cookie' => 'Cookies',
     'address' => 'Address:',
     'address2' => 'Ka-86/1, (3rd Floor) Progoty Soroni Road, Kuril Kazi Bari, Kuril, Dhaka-1229',
-    'contact' => 'Contact Us',
+    'contactus' => 'Contact Us',
 
 ];

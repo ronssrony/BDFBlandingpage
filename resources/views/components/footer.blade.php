@@ -31,8 +31,10 @@
 
                     <!-- Text content -->
                     <div class="sm:text-center md:w-1/2">
-                        <h2 class="text-[24px] md:text-2xl  text-left font-semibold mb-2">Ready to Build</h2>
-                        <h1 class="text-[40px] md:text-5xl text-left sm:text-6xl font-bold">Your First Funnel?</h1>
+                        <h2 class="text-[24px] md:text-2xl  text-left font-semibold mb-2">{{ __('footer.subtitle') }}
+                        </h2>
+                        <h1 class="text-[40px] md:text-5xl text-left sm:text-6xl font-bold">{{ __('footer.title') }}
+                        </h1>
                     </div>
 
                     <!-- Form and button section -->
@@ -42,7 +44,7 @@
                             <div class="bg-white rounded-full flex items-center w-full overflow-hidden">
                                 <div class="flex items-center w-full px-4">
                                     <i class="ri-mail-line text-gray-400 mr-2"></i>
-                                    <input type="email" placeholder="Enter your email"
+                                    <input type="email" placeholder="{{ __('footer.email') }}"
                                         class="w-full py-4 px-2 outline-none text-gray-700" />
                                 </div>
                             </div>
@@ -50,7 +52,7 @@
                             <!-- Submit button -->
                             <button
                                 class="bg-[#FF9442] hover:bg-orange-500 text-white font-medium px-8 py-4 rounded-full transition duration-200 ">
-                                Submit
+                                {{ __('footer.button') }}
                             </button>
                         </div>
                     </div>
@@ -67,38 +69,29 @@
                     </div>
                     <div class="w-full md:w-1/2">
                         <p class="text-[#0B0B0B] text-left md:text-left text-[16px] leading-relaxed">
-                            BD Funnel Builder is a powerful all-in-one platform designed to help entrepreneurs build
-                            high-converting websites and sales funnels with ease. Whether you're an e-commerce seller,
-                            digital marketer or small business owner, our no-code solution simplifies the process,
-                            automates operations, and enhances your business growth.
+                            {{ __('footer.description') }}
                         </p>
                     </div>
 
                     <!-- Social Media Icons -->
-                    <div class=" flex justify-center md:justify-end mt-4 md:mt-0 space-x-2">
-                        <a href="#"
-                            class="text-blue-600 bg-blue-50 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
-                            <i class="ri-facebook-fill text-xl"></i>
+                    <div class=" flex justify-center md:justify-end mt-4 md:mt-0 space-x-4">
+                        <a href="#" class="media_circle hover:bg-blue-100 ">
+                            <i class="ri-facebook-fill text-2xl"></i>
                         </a>
-                        <a href="#"
-                            class="text-blue-600 bg-blue-50 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
-                            <i class="ri-linkedin-fill text-xl"></i>
+                        <a href="#" class="media_circle hover:bg-blue-100 ">
+                            <i class="ri-linkedin-fill text-2xl"></i>
                         </a>
-                        <a href="#"
-                            class="text-blue-600 bg-blue-50 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
-                            <i class="ri-instagram-line text-xl"></i>
+                        <a href="#" class="media_circle hover:bg-blue-100 ">
+                            <i class="ri-instagram-line text-2xl"></i>
                         </a>
-                        <a href="#"
-                            class="text-blue-600 bg-blue-50 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
-                            <i class="ri-whatsapp-line text-xl"></i>
+                        <a href="#" class="media_circle hover:bg-blue-100 ">
+                            <i class="ri-whatsapp-line text-2xl"></i>
                         </a>
-                        <a href="#"
-                            class="text-blue-600 bg-blue-50 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
-                            <i class="ri-telegram-2-fill text-xl"></i>
+                        <a href="#" class="media_circle hover:bg-blue-100 ">
+                            <i class="ri-telegram-2-fill text-2xl"></i>
                         </a>
-                        <a href="#"
-                            class="text-blue-600 bg-blue-50 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-100 transition">
-                            <i class="ri-youtube-fill text-xl"></i>
+                        <a href="#" class="media_circle hover:bg-blue-100 ">
+                            <i class="ri-youtube-fill text-2xl"></i>
                         </a>
                     </div>
                 </div>
@@ -108,39 +101,54 @@
         <!-- Footer -->
         <footer class="py-12">
             <div class="container mx-auto px-4 md:px-8 max-w-7xl">
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <!-- Company Section -->
-                    <div>
-                        <h3 class="text-xl font-bold mb-4">Company</h3>
-                        <ul class="space-y-2">
-                            <li><a href="#" class="text-gray-700 hover:text-blue-600">About us</a></li>
-                            <li><a href="#" class="text-gray-700 hover:text-blue-600">Careers</a></li>
-                            <li><a href="#" class="text-gray-700 hover:text-blue-600">Contact</a></li>
-                        </ul>
-                    </div>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 text-left">
+                    <div class="flex items-center justify-between">
+                        <!-- Company Section -->
+                        <div class=" ">
+                            <h3 class="text-xl font-bold mb-4">{{ __('footer.company') }}</h3>
+                            <ul class="space-y-2">
+                                <li><a href="#"
+                                        class="text-secondary hover:text-blue-600">{{ __('footer.about') }}</a></li>
+                                <li><a href="#"
+                                        class="text-secondary hover:text-blue-600">{{ __('footer.careers') }}</a></li>
+                                <li><a href="#"
+                                        class="text-secondary hover:text-blue-600">{{ __('footer.news') }}</a></li>
+                                <li><a href="#"
+                                        class="text-secondary hover:text-blue-600">{{ __('footer.contact') }}</a></li>
+                            </ul>
+                        </div>
 
-                    <!-- Legal Section -->
-                    <div>
-                        <h3 class="text-xl font-bold mb-4">Legal</h3>
-                        <ul class="space-y-2">
-                            <li><a href="#" class="text-gray-700 hover:text-blue-600">Terms of service</a></li>
-                            <li><a href="#" class="text-gray-700 hover:text-blue-600">Privacy Policy</a></li>
-                        </ul>
+                        <!-- Legal Section -->
+                        <div class="">
+                            <h3 class="text-xl font-bold mb-4 ">{{ __('footer.contact') }}</h3>
+                            <ul class="space-y-2">
+                                <li><a href="#"
+                                        class="text-secondary hover:text-blue-600">{{ __('footer.terms') }}</a></li>
+                                <li><a href="#"
+                                        class="text-secondary hover:text-blue-600">{{ __('footer.privacy') }}</a></li>
+                                <li><a href="#"
+                                        class="text-secondary hover:text-blue-600">{{ __('footer.cookie') }}</a></li>
+                                <li><a href="#"
+                                        class="text-secondary hover:text-blue-600">{{ __('footer.license') }}</a></li>
+                                <li><a href="#"
+                                        class="text-secondary hover:text-blue-600">{{ __('footer.refund') }}</a></li>
+                            </ul>
+                        </div>
                     </div>
+                    
 
                     <!-- Contact Us Section -->
-                    <div>
-                        <h3 class="text-xl font-bold mb-4">Contact Us</h3>
-                        <p class="font-bold">Address:</p>
-                        <p class="mb-4 text-gray-700">Ka-86/1, (3rd Floor) Progoty Soroni Road, Kuril Kazi Bari, Kuril,
-                            Dhaka-1229</p>
+                    <div class="lg:pl-16">
+                        <h3 class="text-[20px] font-bold mb-4 ">{{ __('footer.contactus') }}</h3>
+                        <p class="font-bold paragraph_1">{{ __('footer.address') }}</p>
+                        <p class="mb-4 paragraph_2 text-secondary">{{ __('footer.address2') }}</p>
 
-                        <p class="font-bold">Phone:</p>
-                        <p class="mb-4 text-gray-700">+880 1404 011 056</p>
+                        <p class="font-bold">{{ __('footer.phone') }}</p>
+                        <p class="mb-4 text-secondary">{{ __('footer.number') }}</p>
                     </div>
 
                     <!-- Map Section -->
-                    <div class="md:col-span-1">
+                    <div class="md:col-span-1 md:mt-0">
                         <div class="w-full h-48 bg-gray-200 rounded-lg overflow-hidden">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4340.615157967687!2d90.4215723268882!3d23.81832429293884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d61e95fe7ee33b3%3A0x699bc2c7d11775d!2sBD%20Funnel%20Builder!5e0!3m2!1sen!2sbd!4v1741960971034!5m2!1sen!2sbd"
@@ -153,7 +161,7 @@
 
                 <!-- Copyright Section -->
                 <div class="border-t mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
-                    <p class="text-gray-700">&copy; 2025 BDFunnelBuilder. All rights reserved.</p>
+                    <p class="text-secondary">{{ __('footer.copyright') }}</p>
                 </div>
             </div>
         </footer>
@@ -163,8 +171,9 @@
             <i class="ri-arrow-up-line"></i>
         </button>
     </div>
+
     <script>
-        // Scroll to top functionality
+
         const scrollToTopButton = document.getElementById('scrollToTop');
 
         window.addEventListener('scroll', () => {
