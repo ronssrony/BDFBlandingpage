@@ -1,4 +1,4 @@
-<x-layout>
+
     <div class="pt-10">
         <div class="max-w-5xl mx-auto px-4 py-10">
             <div class="text-center mb-10">
@@ -26,7 +26,7 @@
                     class="absolute top-0 right-0 w-16 md:block z-0">
                 <img src="/images/mission_b.png" alt="Mission Bottom"
                     class="absolute bottom-2 left-10 w-20 opacity-70 md:block z-0">
-                    
+
                 <h2 class="title-header font-bold text-left text-primary mb-6 relative z-10">{{__('mission_vision.mission')}}</h2>
                 <p class="description text-primary leading-relaxed text-left relative z-10">
                     {{__('mission_vision.mission-description')}}
@@ -34,4 +34,4 @@
             </div>
         </div>
     </div>
-</x-layout>
+

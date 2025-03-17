@@ -1,5 +1,5 @@
-<x-layout>
-<button 
+<div>
+<button
     class="relative overflow-hidden cursor-pointer border-[4px] border-[#C7DFFF] bg-[#1565CE] text-white text-[18px] md:text-[20px] font-[700] rounded-full group w-58 h-16">
     <span class="absolute inset-0 flex items-center justify-center transition-transform duration-500 ease-out group-hover:-translate-y-9">
         {{__('trial-btn.btn-text')}}
@@ -11,7 +11,7 @@
     </svg>
 </span>
 </button>
-</x-layout>
+</div>
 
 <style>
 .group::before {
@@ -21,7 +21,7 @@
     height: 300%;
     top: 100%;
     left: 50%;
-    background-color: rgba(218, 94, 0, 1); 
+    background-color: rgba(218, 94, 0, 1);
     transform: translate(-50%, -50%) scale(0);
     border-radius: 50%;
     transition: transform 0.8s ease, width 0.8s ease, height 0.8s ease;
