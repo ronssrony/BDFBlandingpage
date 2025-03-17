@@ -1,4 +1,4 @@
-<x-layout>
+<div>
     <div class="px-10 md:px-28 py-10">
         <h1 class="text-[#666666] text-center text-[18px] md:text-[24px] font-[300] pb-6">Trusted by leading brands</h1>
 
@@ -6,7 +6,7 @@
             <div id="custom-scrollbar" class="w-full h-[4px] bg-gray-300 cursor-pointer overflow-x-auto" style="position: absolute; top: 0;">
                 <div id="scrollbar-thumb" class="h-[4px] bg-gray-600 w-1/4"></div>
             </div>
-        
+
             <div id="scroll-container" class="overflow-hidden w-full pt-4">
                 <div id="scroll-content" class="flex items-center gap-10 w-max">
                     <img src="brands/brand1.png" alt="brand1">
@@ -22,7 +22,7 @@
             </div>
         </div>
     </div>
-</x-layout>
+</div>
 
 
 <script>

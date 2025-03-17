@@ -15,13 +15,7 @@
         <title>Wave-Like Continuous Slider</title>
 
         <style>
-            body {
-                font-family: Arial, sans-serif;
-                background-color: #f5f5f5;
-                text-align: center;
-                padding: 20px;
-                overflow-x: hidden;
-            }
+
 
             .slider-container {
                 width: 100%;

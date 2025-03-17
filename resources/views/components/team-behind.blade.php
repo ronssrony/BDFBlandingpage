@@ -1,5 +1,5 @@
 
-<x-layout>
+<div id="team">
     <div class="dark:bg-gray-800 mt-4 py-6 sm:py-8 lg:py-12">
         <div class="mx-auto max-w-[1300px] px-4 md:px-8">
             <div class="flex justify-center items-center">
@@ -59,4 +59,4 @@
             </div>
         </div>
     </div>
-</x-layout>
+</div>
