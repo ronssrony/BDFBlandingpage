@@ -34,7 +34,9 @@
         background-color: #002B79;
     }
 }
-
+.body{
+    background-color: white;
+}
 /* Custom Fonts */
 @layer base {
     .font-sans {
