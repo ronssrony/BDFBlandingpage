@@ -10,7 +10,7 @@
             border: 4px solid #C7DFFF;
             background: #1565CE;
             padding: 10px 45px;
-            font-size: 14px;
+            font-size: 18px;
             font-family: "montserrat";
             font-weight: bold;
             cursor: pointer;
