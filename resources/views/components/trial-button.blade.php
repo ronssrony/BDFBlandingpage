@@ -15,23 +15,25 @@
 </div>
 
 <style>
-.group::before {
-    content: '';
-    position: absolute;
-    width: 300%;
-    height: 300%;
-    top: 100%;
-    left: 50%;
-    background-color: rgba(218, 94, 0, 1);
-    transform: translate(-50%, -50%) scale(0);
-    border-radius: 50%;
-    transition: transform 0.8s ease, width 0.8s ease, height 0.8s ease;
-}
+    .group::before {
+        content: '';
+        position: absolute;
+        width: 300%;
+        height: 300%;
+        top: 100%;
+        left: 50%;
+        background-color: rgba(218, 94, 0, 1);
+        transform: translate(-50%, -50%) scale(0);
+        border-radius: 50%;
+        transition: transform 0.8s ease, width 0.8s ease, height 0.8s ease;
+    }
+
     .group:hover::before {
         transform: translate(-50%, -50%) scale(1);
         width: 400%;
         height: 400%;
     }
+
     .group:hover {
         background: linear-gradient(to top, #2563eb 0%, #1d4ed8 100%);
     }
@@ -45,6 +47,7 @@
         button.style.setProperty('--x', x + '%');
         button.style.setProperty('--y', y + '%');
     }
+
     function resetBackground(button) {
         button.style.setProperty('--x', '50%');
         button.style.setProperty('--y', '50%');
