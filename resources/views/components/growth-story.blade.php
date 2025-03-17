@@ -1,5 +1,6 @@
-<x-layout>
-    <div class=" bg-black font-sans text-white min-h-screen w-full"
+
+    <div class="lg:mt-12 lg:pt-12">
+        <div class=" bg-black font-sans text-white  min-h-screen w-full lg:p-8"
         style="background-image: url('/images/Group 427321952 (1) 1.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
     
             <div class="text-center mt-8 mb-8 lg:mt-14 pt-14 mx-auto relative">
@@ -26,18 +27,16 @@
                                 lg:absolute lg:bottom-[calc(50%+5px)]  lg:left-1/2 lg:-translate-y-0 lg:-translate-x-1/2 lg:w-0.5 lg:h-20 lg:border-l-2 lg:border-dashed lg:border-gray-500">
                     </div>
                     <div class="ml-20 mt-5 lg:ml-0 lg:-mt-52 lg:flex lg:flex-col lg:items-center">
-                       
                         <h2 class="lg:text-2xl text-2xl text-left lg:mx-auto font-bold lg:text-center">{{ __('growth-story.year_2023.title') }}</h2>
                     
                         <div class="paragraph_small lg:justify-between text-gray-400 mt-2 lg:text-center">
-                            <div class="lg:flex lg:justify-center text-left">
+                            <div class="lg:flex lg:justify-center lg:text-nowrap lg:items-center text-left">
                                 <span class="font-bold text-white">{{ __('growth-story.year_2023.subtitle_1') }}</span>
                                 <span class="ml-1 font-bold">{{ __('growth-story.year_2023.subtitle_2') }}</span>
-                            </div> 
-                            <div class="mt-1 lg:flex lg:justify-center text-left">
+                            </div>  
+                             <div class="mt-1 lg:flex lg:justify-center text-left">
                                 <span class="font-bold text-white">{{ __('growth-story.year_2023.subtitle_3') }}</span>
-                                <span class="ml-1 font-bold">{{ __('growth-story.year_2023.subtitle_4') }}</span>
-                            </div>
+                            </div> 
                         </div>
                     </div>
                 </div>
@@ -157,7 +156,8 @@
         
     
     </div>
-    </x-layout>
+    </div>
+    
      
        
     
