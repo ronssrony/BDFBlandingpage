@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="relative py-8 pl-32 pr-14 container ">
     <div class="absolute right-0 top-4/8 transform -translate-y-1/2 flex flex-col gap-4">
         <img src="{{ asset('hero/overviewTable1.png') }}" alt="" class="w-50 h-auto">
@@ -39,6 +40,15 @@
                             <p class="text-[11px]">58,2518 Taka</p>
                         </div>
 
+=======
+
+    <div>
+        <div class="py-8 pl-30">
+            <div class="grid grid-rows-1 md:grid-cols-3 gap-x-60 gap-y-4">
+                <div class="w-[410px]">
+                    <div>
+                        <p class="text-[42px] font-black text-[#1565CE]">The Ultimate</p>
+>>>>>>> 2e051f0308345d9660ab3b76d7ae632149aea4b1
                     </div>
                     <div class="flex gap-2 items-center justify-center px-4 py-3 bg-white rounded-sm shadow-md shadow-gray-400">
                         <div>
@@ -83,6 +93,7 @@
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
         <div class="w-[500px]">
             <div class="-space-y-1">
                 <div class="flex items-center">
@@ -137,3 +148,8 @@
     <img src="{{ asset('hero/abandonedOrders.png') }}" alt="" class="w-40 h-auto">
     <img src="{{ asset('hero/fakeOrderSolution.png') }}" alt="" class="w-40 h-auto">
 </div> -->
+=======
+
+    </div>
+
+>>>>>>> 2e051f0308345d9660ab3b76d7ae632149aea4b1
