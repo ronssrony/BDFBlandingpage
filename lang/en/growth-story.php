@@ -15,7 +15,7 @@
             "subtitle_4" => " started",
         ],
         "year_2025" => [
-            "title" => "Our Growth Story",
+            "title" => "2025",
             "subtitle_1" => "Official launch of",
             "subtitle_2" => "BD Funnel ",
             "subtitle_3" => "Builder.",
@@ -42,17 +42,17 @@
             "title_1" => "Current Premium",
             "subtitle_1" => "250+ Entrepreneurs",
             "subtitle_2" => "renew their",
-            "subtitle_2" => "subscriptions every month.",
+            "subtitle_3" => "subscriptions every month.",
             
         
         ],
     
         "positive_feedback" => [
-            "title_1" => "Current Premium",
+            "title_1" => "Positive Feedback",
             "subtitle_1" => "Over",
             "subtitle_2" => "600+ happy users",
-            "subtitle_2" => "have",
-            "subtitle_2" => "shared their success stories.",
+            "subtitle_3" => "have",
+            "subtitle_4" => "shared their success stories.",
             
         
         ]
