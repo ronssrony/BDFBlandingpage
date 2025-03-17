@@ -1,6 +1,6 @@
 <div>
 <button
-    class="relative overflow-hidden cursor-pointer border-[4px] border-[#C7DFFF] bg-[#1565CE] text-white text-[18px] md:text-[20px] font-[700] rounded-full group w-58 h-16">
+    class="relative overflow-hidden cursor-pointer border-[4px] border-[#C7DFFF] bg-[#1565CE] text-white text-[18px] md:text-[20px] font-[700] rounded-full group w-64 h-14">
     <span class="absolute inset-0 flex items-center justify-center transition-transform duration-500 ease-out group-hover:-translate-y-9">
         {{__('trial-btn.btn-text')}}
     </span>

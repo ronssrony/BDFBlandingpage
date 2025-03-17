@@ -1,4 +1,4 @@
-<div id="features">
+<div id="features" class="max-w-[1300px] mx-auto px-4">
     <p class="text-center mt-10 mb-2 text-gray-800 text-lg md:text-xl lg:text-2xl">
     {{ __('essential.header1') }}
     </p>
@@ -6,10 +6,18 @@
         <div class="relative flex items-center justify-center w-[80%] md:w-[725px] h-[85px] mb-10">
             <img src="{{ asset('images/essential-business/heading-background.png') }}" alt=""
                 class="absolute inset-0 w-full  h-full  object-cover mt-6 sm:mt-0 ">
+                @if( app()->getLocale() === 'bn')
+            <h1 class=" text-[25px] md:text-[50.5px] lg:text-[50.5px] font-bold text-black absolute text-center px-4
+                   w-full break-words  md:whitespace-nowrap   ml-[-8%] mb--10 lg:mb-1 md:mb-1 leading-tight ">
+                   {{ __('essential.header2') }}
+            </h1>
+            @else
             <h1 class=" text-[32px] md:text-[59.5px] lg:text-[59.5px] font-bold text-black absolute text-center px-4
                    w-full break-words  md:whitespace-nowrap ml-[-7%] mb-1">
                    {{ __('essential.header2') }}
             </h1>
+            @endif
+
         </div>
     </div>
     <div class="p-4 md:p-8 lg:p-10">
