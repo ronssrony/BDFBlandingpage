@@ -15,6 +15,9 @@
     @include('components.faq')
     @include('components.footer')
 
+    @include('components.terms-condition')
+    @include('components.privacy-policy')
+
 </div>
 
 
