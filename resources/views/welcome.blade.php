@@ -1,8 +1,10 @@
-
 <x-layout>
-    <div class="nav mb-28" >
+    <div class="nav mb-28">
         
-    </div>
+        </div>
+
+
+    @include('components.hero')
     @include('components.brands-marquee')
     @include('components.smarter-business')
     @include('components.boost-business')
@@ -14,10 +16,8 @@
     @include('components.team-behind')
     @include('components.faq')
     @include('components.footer')
+    @include('components.testimonials')
 </x-layout>
 
 
-
-
-
-
+</div>
