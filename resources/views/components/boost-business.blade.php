@@ -1,5 +1,5 @@
 <div>
-    <div class="px-6">
+    <div class="px-6 max-w-[1300px]">
         <div class="relative my-20">
             <img src="boost-business\boost-bg-small.png" alt="background" class="block md:hidden w-full">
             <img src="boost-business\boost-bg-large.png" alt="background" class="hidden md:block w-full">
