@@ -1,4 +1,4 @@
-
+<div class="max-w-[1300px] px-4 mx-auto">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 
     <style>
@@ -193,5 +193,5 @@
             });
         });
     </script>
-
+</div>
 
