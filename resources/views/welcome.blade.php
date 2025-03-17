@@ -14,7 +14,6 @@
     @include('components.team-behind')
     @include('components.faq')
     @include('components.footer')
-
 </x-layout>
 
 
