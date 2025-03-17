@@ -1,4 +1,4 @@
-<x-layout>
+<div>
 
     <!-- Mission Vision -->
     <div class="pt-10">
@@ -41,4 +41,4 @@
             </div>
         </div>
     </div>
-</x-layout>
+</div>
