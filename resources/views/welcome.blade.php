@@ -21,9 +21,4 @@
     @include('components.privacy-policy')
 
 </div>
-
-
-
-
-
-
+</x-layout>
