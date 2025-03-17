@@ -5,11 +5,12 @@
     </div>
 
     <!-- Swiper Container -->
-    <div class="swiper-container pl-30">
-        <div class="swiper-wrapper" id="swiper-wrapper">
+<div class="max-w-[1300px] overflow-x-hidden">
+    <div class="max-w-[320px] " >
+        <div class="swiper-container flex " >
 
             @foreach (__('testimonial.slider') as $index => $testimonial)
-                <div class="swiper-slide">
+                <div class="swiper-slide ">
                     <div
                         class="slide-content card h-[400px] w-[300px] bg-white border-2 border-blue-600 p-4 rounded-lg relative ">
                         <img src="testimonial\Group.png" alt="Client Image" class="w-12 h-8 ">
@@ -18,7 +19,7 @@
 
                             <div class="flex justify-start  ">
                                 <img src="{{ asset($testimonial['image']) }}" alt="Client Image"
-                                    class="w-16 h-16 rounded-full">
+                                     class="w-16 h-16 rounded-full">
                                 <div class="flex flex-col pl-4 items-start">
                                     <h3 class="mt-2 font-bold text-center">{{ $testimonial['name'] }}</h3>
                                     <p class="text-sm text-center">{{ $testimonial['designation'] }}</p>
@@ -39,6 +40,7 @@
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
     </div>
+</div>
 
     <!-- Include Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -51,11 +53,13 @@
             var swiper = new Swiper('.swiper-container', {
                 loop: true, // Enable infinite loop
                 slidesPerView: 3, // Default to 1 slide visible
-                spaceBetween: 5, // Space between slides
+                spaceBetween:5 ,
+                clickable: true,
                 pagination: true,
 
 
             });
         });
+
     </script>
 </x-layout>
