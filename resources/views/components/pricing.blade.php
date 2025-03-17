@@ -13,7 +13,7 @@
                             <h3 class="text-white lg:text-[45px] md:text-[40px] text-[36px] font-semibold mb-2">Basic Plan</h3>
                             <h3 class="text-white lg:text-[45px] md:text-[40px] text-[36px]font-semibold">$2000 <span class="text-white lg:text-[26px] md:text-[22px] text-[20px] font-medium">/month</span></h3>
                         </div>
-                        <hr class="my-6 border-[#6BABFF]">
+                        <hr class="border-[#6BABFF]">
                         <div class="mt-6 md:flex items-center justify-between">
                             <ul class="mt-6 space-y-4">
                                 <li class="flex items-center text-sm text-white font-medium">
@@ -89,9 +89,9 @@
                 <div class="mt-10 grid lg:grid-cols-12 md:grid-cols-1 grid-cols-1 gap-3">
                     <div class="border border-[#6BABFF] shadow rounded-md p-6 lg:col-span-4">
                         <div class="flex items-center justify-between">
-                            <h3 class="text-white lg:text-[30px] md:text-[28px] text-[24px] font-semibold mb-2">Fake Order</h3>
+                            <h3 class="text-white text-[24px] font-semibold mb-2">Fake Order</h3>
                         </div>
-                        <hr class="my-6 border-[#6BABFF]">
+                        <hr class="border-[#6BABFF]">
                         <div class="mt-6 flex items-center justify-between">
                             <ul class="mt-6 space-y-4">
                                 <li class="flex items-center text-sm text-white font-medium">
@@ -123,9 +123,9 @@
                     </div>
                     <div class="border border-[#6BABFF] shadow rounded-md p-6 lg:col-span-5">
                         <div class="flex items-center justify-between">
-                            <h3 class="text-white lg:text-[30px] md:text-[28px] text-[24px] font-semibold mb-2">SMS</h3>
+                            <h3 class="text-white text-[24px] font-semibold mb-2">SMS</h3>
                         </div>
-                        <hr class="my-6 text-white">
+                        <hr class="text-[#6BABFF]">
                         <div class="mt-6 md:flex items-center justify-between">
                             <ul class="mt-6 space-y-4">
                                 <li class="flex items-center text-sm text-white font-medium">
@@ -167,9 +167,9 @@
                     </div>
                     <div class="border border-[#6BABFF] shadow rounded-md p-6 lg:col-span-3">
                         <div class="flex items-center justify-between">
-                            <h3 class="text-white lg:text-[30px] md:text-[28px] text-[24px] font-semibold mb-2">Call Automation</h3>
+                            <h3 class="text-white lg:text-[24px] md:text-[28px] text-[24px] font-semibold mb-2">Call Automation</h3>
                         </div>
-                        <hr class="my-6 border-[#6BABFF]">
+                        <hr class="border-[#6BABFF]">
                         <div class="mt-6 flex items-center justify-between">
                             <ul class="mt-6 space-y-4">
                                 <li class="flex items-center text-sm text-white font-medium">
@@ -211,6 +211,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="flex justify-center mt-10 pb-16">
+            @include('components.free-trail-button')
         </div>
     </div>
 </x-layout>
