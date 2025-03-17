@@ -1,8 +1,7 @@
 <x-layout>
     <div class="nav mb-28">
         @include('components.navbar')
-
-    </div>
+        </div>
     <div>
         @include('components.hero')
         @include('components.brands-marquee')
@@ -21,5 +20,6 @@
         @include('components.terms-condition')
         @include('components.privacy-policy')
 
-    </div>
+</div>
 </x-layout>
+

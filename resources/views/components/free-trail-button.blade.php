@@ -12,6 +12,7 @@
         </span>
     </button>
 </div>
+</div>
 
 <style>
     .group::before {
