@@ -17,8 +17,5 @@
     @include('components.faq')
     @include('components.footer')
     @include('components.testimonials')
-    @include('components.terms-condition')
-    @include('components.privacy-policy')
-
 </div>
 </x-layout>
