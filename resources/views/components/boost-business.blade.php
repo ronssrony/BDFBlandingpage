@@ -1,4 +1,4 @@
-<x-layout>
+<div>
     <div class="px-6">
         <div class="relative my-20">
             <img src="boost-business\boost-bg-small.png" alt="background" class="block md:hidden w-full">
@@ -13,4 +13,4 @@
             </div>
         </div>
     </div>
-</x-layout>
+</div>

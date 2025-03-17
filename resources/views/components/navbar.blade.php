@@ -4,7 +4,7 @@
  @endphp
 <nav class="navbar  fixed top-0 z-70 min-w-full flex justify-center  max-h-[70px]  items-center min-h-[70px] transition-all duration-300 ">
     <div class=" transition-all duration-400 flex bg-white justify-between items-center  mx-auto max-w-[1300px] lg:max-w-[1005px] xl:max-w-[1160px] min-[1300px]:max-w-[1256px] 2xl:max-w-[1300px] w-[100%] lg:w-[100%] xl:w-[100%] 2xl:w-[100%] py-3 px-4">
-        <div class="w-1/6 min-w-44 cursor-pointer">
+        <div class="w-1/6 min-w-36 max-w-36 cursor-pointer">
             <a href="{{ route('home') }}">
                 <img class=" " src="/BFLOGO.png" alt="Logo"/>
             </a>
@@ -25,9 +25,13 @@
             <div class="hidden xl:flex items-center space-x-4">
                 @include('components.language-selector',['width'=>''])
                 <button
-                    class=" bg-[#1565ce] text-white px-4 py-2 rounded-full hover:bg-[#1565ce]/90 transition-colors whitespace-nowrap"
+                    class=" bg-[#1565ce] text-white relative pl-6 pr-12 py-2 rounded-full hover:bg-[#1565ce]/90 transition-colors whitespace-nowrap "
                     onclick="scrollToSection('contact')">
                     {{ __('navbar.start_today') }}
+
+                    <div class="absolute right-0 top-0 text-white flex justify-center items-center h-10 w-10 rounded-full bg-[#4F8CDB]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 22"><!-- Icon from All by undefined - undefined --><path fill="currentColor" d="M12 14.708L6.692 9.4l.708-.708l4.6 4.6l4.6-4.6l.708.708z"/></svg>
+                    </div>
                 </button>
             </div>
         </div>
@@ -55,6 +59,9 @@
             class=" bg-[#1565ce] w-36 text-white px-4 py-2 rounded-full hover:bg-[#1565ce]/90 transition-colors whitespace-nowrap"
             onclick="scrollToSection('contact')">
             {{ __('navbar.start_today') }}
+            <div>
+                <img src="/icons/arrow-down.svg" alt="arrow"/>
+            </div>
         </button>
     </div>
 </div>
