@@ -1,4 +1,4 @@
-<x-layout>
+
     <div class=" bg-black font-sans text-white min-h-screen w-full"
         style="background-image: url('/images/Group 427321952 (1) 1.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
     
@@ -21,8 +21,8 @@
                                 lg:absolute lg:top-1/2 lg:left-[50%] lg:-translate-x-5 lg:-translate-y-2.5 
                                 lg:w-10 lg:h-10 lg:bg-white lg:rounded-full lg:border-4 lg:border-gray-900">
                     </div>
-                
-                    <div class="absolute -translate-y-3 left-14 w-14 border-t-4 border-dashed border-gray-500 
+
+                    <div class="absolute -translate-y-3 left-14 w-14 border-t-4 border-dashed border-gray-500
                                 lg:absolute lg:bottom-[calc(50%+5px)]  lg:left-1/2 lg:-translate-y-0 lg:-translate-x-1/2 lg:w-0.5 lg:h-20 lg:border-l-2 lg:border-dashed lg:border-gray-500">
                     </div>
                     <div class="ml-20 mt-5 lg:ml-0 lg:-mt-52 lg:flex lg:flex-col lg:items-center">
@@ -102,7 +102,7 @@
                         </div>
                         <p class="lg:text-[14px] text-left ml-1 lg:text-gray-400 lg:whitespace-nowrap">{{ __('growth-story.monthly_renewals.subtitle_3') }}</p>
                     </div>
-                </div> 
+                </div>
               <!-- Item 5 (White Circle - Top Line) -->
               <div class="lg:relative lg:text-center lg:w-full md:w-1/6 pb-8 mb-6">
                    
@@ -148,21 +148,21 @@
                         </div>
                         <span class="lg:text-[14px] block text-left lg:ml-1 lg:text-nowrap  lg:text-gray-400">{{ __('growth-story.positive_feedback.subtitle_4') }}</span>
                     </div>
-                </div> 
-                
-    
+                </div>
+
+
             </div>
         </div>   
     
         
     
     </div>
-    </x-layout>
-     
-       
-    
-    
-    
-    
-     
-    
+    </div>
+
+
+
+
+
+
+
+

@@ -1,9 +1,11 @@
-<x-layout>
+<div>
+
+
 <button 
     class="relative overflow-hidden cursor-pointer border-[4px] border-[#C7DFFF] bg-[#1565CE] text-white text-[16px] sm:text-[18px] md:text-[18px] font-[700] rounded-full group w-48 h-14 sm:w-52 sm:h-16 md:w-58 md:h-14">
     
     <span class="absolute inset-0 flex items-center justify-center transition-transform duration-500 ease-out group-hover:-translate-y-9">
-        Start free trial
+        {{__('trial-btn.btn-text')}}
     </span>
 
     <span class="absolute inset-0 flex items-center justify-center translate-y-8 opacity-0 transition-all duration-500 ease-out group-hover:translate-y-0 group-hover:opacity-100">
@@ -13,7 +15,8 @@
         </svg>
     </span>
 </button>
-</x-layout>
+</div>
+</div>
 
 <style>
 .group::before {
@@ -23,7 +26,7 @@
     height: 300%;
     top: 100%;
     left: 50%;
-    background-color: rgba(218, 94, 0, 1); 
+    background-color: rgba(218, 94, 0, 1);
     transform: translate(-50%, -50%) scale(0);
     border-radius: 50%;
     transition: transform 0.8s ease, width 0.8s ease, height 0.8s ease;

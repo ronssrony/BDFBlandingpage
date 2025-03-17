@@ -1,4 +1,4 @@
-<x-layout>
+<div>
     <div class="pt-20 max-w-[1300px] mx-auto  px-4 md:px-8">
         <h4 class="lg:text-[24px] md:text-[20px] text-[20px] font-[300] text-center">{{__('oneStopSolution.sub-title')}}</h4>
         <h2 class="lg:text-[60px] md:text-[44px] text-[36px] font-[800] text-gray-800 text-center">{{__('oneStopSolution.title')}}</h2>
@@ -23,4 +23,4 @@
             </div>
         </div>
     </div>
-</x-layout> 
+</div>
