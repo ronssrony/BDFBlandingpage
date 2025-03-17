@@ -4,6 +4,7 @@
         @include('components.navbar')
     </div>
     @include('components.brands-marquee')
+    @include('components.brands-marquee')
     @include('components.smarter-business')
     @include('components.boost-business')
     @include('components.one-stop-solution')
@@ -15,6 +16,7 @@
     @include('components.team-behind')
     @include('components.faq')
     @include('components.footer')
+
 
 </div>
 
