@@ -22,7 +22,7 @@
                         <p class="text-[22px] pt-8">Build, Automate & Scale Your Business Hassle-Free.</p>
                     </div>
                 </div>
-                <div class="bg-[#DEEAFF] min-h-[50px] row-span-2 col-span-2 rounded-2xl  "></div>
+                <div class="bg-[#DEEAFF] row-span-2 col-span-2 rounded-2xl  "></div>
                 <div class="w-[550px]">
                     <div>
                         <div class="flex items-center pl-2">
@@ -52,9 +52,6 @@
                     </div>
                     <div class="flex gap-7 items-center px-2 pt-16 pb-10">
                         <div>
-                            <button class="px-12 py-3 cursor-pointer text-[18px] text-white font-bold bg-[#1565CE] border-4 border-[#C7DFFF] rounded-4xl" style="box-shadow: inset 0 4px 8px rgba(199, 223, 255, 0.8);">
-                                Start free trial
-                            </button>
                             @include('components.heroButton')
                         </div>
                         <div>

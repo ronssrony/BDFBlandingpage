@@ -7,7 +7,7 @@
     <title>Document</title>
     <style>
         .btn {
-            border: 2px solid #C7DFFF;
+            border: 4px solid #C7DFFF;
             background: #1565CE;
             padding: 10px 45px;
             font-size: 18px;
@@ -46,7 +46,7 @@
             left: 0;
             width: 100%;
             height: 0%;
-            background: orange;
+            background: #fb923c;
             z-index: 0;
             transition: 0.8s;
             bottom: 0;
