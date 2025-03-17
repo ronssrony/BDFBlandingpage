@@ -1,5 +1,5 @@
 
-<div>
+<x-layout>
     <div class="nav mb-28" >
         @include('components.navbar')
     </div>
@@ -15,7 +15,7 @@
     @include('components.faq')
     @include('components.footer')
 
-</div>
+</x-layout>
 
 
 
