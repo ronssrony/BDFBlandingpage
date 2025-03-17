@@ -1,6 +1,8 @@
 <?php
 
 return [
+    
+     
     [
         "title" => "Sell Physical & Digital Products",
         "body" => "Sell both online and offline products effortlessly.",
@@ -81,5 +83,7 @@ return [
         "body" => "Analyze delivery performance and logistics data.",
         "image" => "images/essential-business/ls17.svg"
     ]
+    
+    
   
 ];
