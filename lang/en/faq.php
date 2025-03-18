@@ -1,6 +1,8 @@
 <?php
 
 return [
+    'header'=> 'Common Question on Client’s Mind',
+    'title' => 'Frequently Ask Question',
     'items' => [
         [
             'question' => 'What is BD Funnel Builder?',

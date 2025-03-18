@@ -1,4 +1,4 @@
-<div class="max-w-[1300px] px-4 mx-auto">
+<div class="max-w-[1300px] px-6 md:px-8 mx-auto">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 
 
@@ -25,7 +25,7 @@
     </style>
 
     <!-- Hero Section -->
-    <div class="pt-20">
+    <div id="contact" class="pt-20">
         <section class="bg-[#1565CE] mx-auto w-full text-white rounded-xl py-8 md:py-10 sm:rounded-lg relative">
             <div class="container px-4 md:px-8">
                 <div class="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10 z-10">
@@ -62,7 +62,7 @@
             </div>
         </section>
         <!-- About Section -->
-        <section class="py-12 border-b">
+        <section class="py-12 border-b border-[#CBCBCB]">
             <div class="container mx-auto px-4 md:px-8">
                 <div class="flex flex-col md:flex-row items-center gap-6">
                     <div class="w-full md:w-1/4">
@@ -99,7 +99,7 @@
         </section>
         <!-- Footer -->
         <footer class="py-12">
-            <div class="container mx-auto px-4 md:px-8 max-w-7xl">
+            <div class="container mx-auto px-6 md:px-8 max-w-7xl">
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 text-left">
                     <div class="flex items-center justify-between">
                         <!-- Company Section -->
@@ -157,7 +157,7 @@
                 </div>
 
                 <!-- Copyright Section -->
-                <div class="border-t mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
+                <div class="border-t mt-12 py-12 border-[#CBCBCB] pt-6 flex flex-col md:flex-row justify-between items-center">
                     <p class="text-secondary">{{ __('footer.copyright') }}</p>
                 </div>
             </div>
