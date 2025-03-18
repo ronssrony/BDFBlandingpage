@@ -12,12 +12,12 @@
                             <div
                                 class="flex flex-col justify-between slide-content card h-[400px] w-[300px] bg-white border-2 border-blue-600 p-4 rounded-lg relative">
                                 <div>
-                                    <img src="testimonial\Group.png" alt="Client Image" class="w-12 h-8">
+                                    <img src="images/testimonial/Group.png" alt="Client Image" class="w-12 h-8">
                                     <p class="mt-4 text-start">{{ $testimonial['body'] }}</p>
                                 </div>
 
                                 <div class="flex justify-start border-t border-dashed pt-5 border-blue-500">
-                                    <img src="{{ asset($testimonial['image']) }}" alt="Client Image"
+                                    <img src="{{ asset( 'images/'.$testimonial['image']) }}" alt="Client Image"
                                          class="w-16 h-16 rounded-full">
                                     <div class="flex flex-col pl-4 items-start">
                                         <h3 class="mt-2 font-bold text-center">{{ $testimonial['name'] }}</h3>

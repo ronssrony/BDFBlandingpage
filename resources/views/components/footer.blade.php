@@ -63,13 +63,13 @@
 
            <!-- About Section -->
            <section class="py-12 border-b">
-               <div class="container mx-auto px-4 md:px-8">
-                   <div class="flex flex-col md:flex-row items-center gap-6">
-                       <div class="w-full md:w-1/4">
-                           <img src="/images/bfb_logo.png" alt="BD Funnel Builder Logo" class="w-48  md:mx-0">
+               <div class=" ">
+                   <div class="flex flex-col md:flex-row items-center  gap-6  ">
+                       <div class="w-full md:w-1/4 ">
+                           <img src="/BFLOGO.png" alt="BD Funnel Builder Logo" class="w-48  md:mx-0">
                        </div>
                        <div class="w-full md:w-1/2">
-                           <p class="text-[#0B0B0B] text-left md:text-left text-[16px] leading-relaxed">
+                           <p class="text-[#0B0B0B]text-left md:text-left text-[16px] leading-relaxed">
                                {{ __('footer.description') }}
                            </p>
                        </div>
@@ -101,9 +101,9 @@
 
            <!-- Footer -->
            <footer class="py-12">
-               <div class="container mx-auto px-4 md:px-8 max-w-7xl">
+               <div class="container mx-auto  max-w-7xl">
                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 text-left">
-                       <div class="flex items-center justify-between">
+                       <div class="flex items-start justify-between">
                            <!-- Company Section -->
                            <div class=" ">
                                <h3 class="text-xl font-bold mb-4">{{ __('footer.company') }}</h3>

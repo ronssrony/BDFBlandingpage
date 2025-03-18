@@ -85,25 +85,25 @@
 
         <script>
             let firstRowImages = [
-                "{{ asset('unlimited-templates/Frame 1.png') }}",
-                "{{ asset('unlimited-templates/Frame 2.png') }}",
-                "{{ asset('unlimited-templates/Frame 3.png') }}",
-                "{{ asset('unlimited-templates/Frame 4.png') }}",
-                "{{ asset('unlimited-templates/Frame 5.png') }}",
-                "{{ asset('unlimited-templates/Frame 14.png') }}",
-                "{{ asset('unlimited-templates/Frame 15.png') }}",
-                "{{ asset('unlimited-templates/Frame 9.png') }}"
+                "{{ asset('images/unlimited-templates/Frame 1.png') }}",
+                "{{ asset('images/unlimited-templates/Frame 2.png') }}",
+                "{{ asset('images/unlimited-templates/Frame 3.png') }}",
+                "{{ asset('images/unlimited-templates/Frame 4.png') }}",
+                "{{ asset('images/unlimited-templates/Frame 5.png') }}",
+                "{{ asset('images/unlimited-templates/Frame 14.png') }}",
+                "{{ asset('images/unlimited-templates/Frame 15.png') }}",
+                "{{ asset('images/unlimited-templates/Frame 9.png') }}"
             ];
 
         let secondRowImages = [
-            "{{ asset('unlimited-templates/Frame 6.png') }}",
-            "{{ asset('unlimited-templates/Frame 7.png') }}",
-            "{{ asset('unlimited-templates/Frame 8.png') }}",
-            "{{ asset('unlimited-templates/Frame 9.png') }}",
-            "{{ asset('unlimited-templates/Frame 10.png') }}",
-            "{{ asset('unlimited-templates/Frame 11.png') }}",
-            "{{ asset('unlimited-templates/Frame 12.png') }}",
-            "{{ asset('unlimited-templates/Frame 13.png') }}"
+            "{{ asset('images/unlimited-templates/Frame 6.png') }}",
+            "{{ asset('images/unlimited-templates/Frame 7.png') }}",
+            "{{ asset('images/unlimited-templates/Frame 8.png') }}",
+            "{{ asset('images/unlimited-templates/Frame 9.png') }}",
+            "{{ asset('images/unlimited-templates/Frame 10.png') }}",
+            "{{ asset('images/unlimited-templates/Frame 11.png') }}",
+            "{{ asset('images/unlimited-templates/Frame 12.png') }}",
+            "{{ asset('images/unlimited-templates/Frame 13.png') }}"
         ];
 
             function generateSlides(containerId, imagesArray) {
