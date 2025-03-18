@@ -9,7 +9,6 @@
     @include('components.smarter-business')
     @include('components.boost-business')
     @include('components.one-stop-solution')
-    @include('components.growth-story')
     @include('components.essential-business')
     @include('components.unlimited-templates')
         @include('components.pricing')

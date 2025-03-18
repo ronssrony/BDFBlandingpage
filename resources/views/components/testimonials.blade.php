@@ -4,11 +4,11 @@
         <h2 class="font-extrabold title-header">{{ __('testimonial.header') }}</h2>
     </div>
     <div class="flex justify-center relative  ">
-        <div class="max-w-[1300px] w-full">
+        <div class="max-w-[950px] w-full">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     @foreach (__('testimonial.slider') as $index => $testimonial)
-                        <div class="swiper-slide pl-15 pr-0 md:pr-15 md:pl-0 lg:pl-15">
+                        <div class="swiper-slide pl-10 pr-0 md:pr-0 md:pl-10 lg:pl-0">
                             <div
                                 class="flex flex-col justify-between slide-content card h-[400px] w-[300px] bg-white border-2 border-blue-600 p-4 rounded-lg relative">
                                 <div>
