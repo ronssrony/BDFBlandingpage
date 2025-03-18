@@ -1,5 +1,5 @@
 <div class="grid justify-center">
-    <div class="pt-20   max-w-[1200px]">
+    <div class="pt-20   max-w-[1200px]  max-[1200px]:px-6">
         <h4 class="lg:text-[24px] md:text-[20px] text-[20px] font-[300] text-center">{{__('oneStopSolution.sub-title')}}</h4>
         <h2 class="lg:text-[60px] md:text-[44px] text-[36px] font-[800] text-gray-800 text-center">{{__('oneStopSolution.title')}}</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 ">

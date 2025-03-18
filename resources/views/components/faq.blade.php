@@ -1,5 +1,5 @@
 <div id="faq" class="grid justify-center">
-    <div class="  flex flex-col-reverse md:flex-row gap-10 items-center max-w-[1200px] ">
+    <div class="  flex flex-col-reverse md:flex-row gap-10 items-center max-w-[1200px] max-[1200px]:px-6 ">
         <div class="flex-[1]">
             <img src="faq\faqImage.png" alt="faq-image">
         </div>

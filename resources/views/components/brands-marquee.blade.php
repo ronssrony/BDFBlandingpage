@@ -1,5 +1,5 @@
-<div>
-    <div class="px-10 md:px-28 py-10 max-w-[1300px]">
+<div class="grid justify-center">
+    <div class=" px-10 md:px-28 py-10 max-w-[1200px]">
         <h1 class="text-[#666666] text-center text-[18px] md:text-[24px] font-[300] pb-6">{{__('brands.header')}}</h1>
 
         <div class="overflow-hidden relative w-full">

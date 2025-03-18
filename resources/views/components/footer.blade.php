@@ -24,7 +24,7 @@
 
     <!-- Hero Section -->
     <div id="contact" class="pt-20 grid justify-center">
-       <div class="max-w-[1200px]">
+       <div class="max-w-[1200px] max-[1200px]:px-6">
            <section class="bg-[#1565CE] mx-auto w-full text-white rounded-xl py-8 md:py-10 sm:rounded-lg relative ">
                <div class="container px-4 md:px-8">
                    <div class="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10 z-10">
