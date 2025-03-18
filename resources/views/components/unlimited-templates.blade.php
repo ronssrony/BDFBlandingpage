@@ -1,10 +1,15 @@
-<div>
-    <div class="text-start py-4 pl-60 pt-20">
-        <h1 class="heading_1 font-light">{{ __('unlimited-templates.title') }}</h1>
-        <h2 class="font-extrabold title-header">{{ __('unlimited-templates.header') }}</h2>
-        <p class="font-medium header_4">{{ __('unlimited-templates.subtitle') }}</p>
-    </div>
+<div class="flex flex-col items-center ">
+    <div class="max-w-[1200px] ">
+        <div class="self-start max-[1200px]:px-6 min-[1200px]:min-w-[1200px]  ">
+            <div class=" py-4   pt-20">
+                <h1 class="heading_1 font-light">{{ __('unlimited-templates.title') }}</h1>
+                <h2 class="font-extrabold title-header">{{ __('unlimited-templates.header') }}</h2>
+                <p class="font-medium header_4">{{ __('unlimited-templates.subtitle') }}</p>
+            </div>
+        </div>
 
+
+    </div>
 
 
 
@@ -112,12 +117,13 @@
                 }
             }
 
+            // Generate slides separately for both rows
             generateSlides("firstRow", firstRowImages);
             generateSlides("secondRow", secondRowImages);
         </script>
 
     </body>
 
-
+    </html>
 
 </div>
