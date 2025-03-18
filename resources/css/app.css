@@ -167,4 +167,7 @@
     .media_circle {
         @apply text-blue-600 bg-[#A7CDFF] w-12 h-12 rounded-full flex items-center justify-center transition;
     }
+    .trial{
+        @apply inline-block bg-[#DA5E00] hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-lg transition duration-300;
+    }
 }

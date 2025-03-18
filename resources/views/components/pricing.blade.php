@@ -196,24 +196,39 @@
                         </div>
                     </div>
                     <div class="flex items-center justify-between px-8 py-4 border border-[#6BABFF] cursor-pointer rounded-xl dark:border-gray-700">
-                        <div class="flex flex-col  space-y-1">
+                        <div class="flex flex-col  space-y-1 text-left">
                             <h2 class="text-[16px] font-medium text-white">Upto 5 team members</h2>
-                            <h2><strike class="text-white">1500 </strike><strong class="text-[24px] font-medium text-[#E7B122]"> 1000 BDT</strong></h2>
-                            <h2 class="text-[14px] font-semibold text-white">User/Month</h2>
+                            <div class="">
+                                <div class="flex items-center justify-center gap-1">
+                                    <p class="text-lg font-light text-white line-through decoration-[#F16464] mb-1">1500</p>
+                                      <span class="text-[24px] font-medium text-[#E7B122]">900 BDT</span>
+</div>
+                                         <p class="text-[14px] font-light text-white">month/User</p>
+                                                </div>
+
                         </div>
                     </div>
                     <div class="flex items-center justify-between px-8 py-4 border border-[#6BABFF] cursor-pointer rounded-xl dark:border-gray-700">
-                        <div class="flex flex-col  space-y-1">
+                        <div class="flex flex-col  space-y-1 text-left">
                             <h2 class="text-[16px] font-medium text-white">More than 5 team members</h2>
-                            <h2><strike class="text-white">1500 </strike><strong class="text-[24px] font-medium text-[#E7B122]"> 900 BDT</strong></h2>
-                            <h2 class="text-[14px] font-semibold text-white">User/Month</h2>
+                            <div class="">
+                                                            <div class="flex items-center justify-center gap-1">
+                                                                <p class="text-lg font-light text-white line-through decoration-[#F16464] mb-1">1500</p>
+                                                                  <span class="text-[24px] font-medium text-[#E7B122]">1000 BDT</span>
+                            </div>
+                                                                     <p class="text-[14px] font-light text-white">month/User</p>
+                                                                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="flex justify-center mt-10 pb-16">
-            @include('components.free-trail-button')
+           <div class="text-center">
+                       <a href="#" class="trial">
+                           Start free 7-days trial
+                       </a>
+                   </div>
         </div>
     </div>
 </x-layout>
