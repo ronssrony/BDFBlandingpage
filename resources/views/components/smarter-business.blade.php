@@ -50,9 +50,9 @@
 
 
           </div>
-          <div class="flex flex-col md:flex-row  shrink-0 justify-center gap-8 mt-12 px-6">
+          <div class="flex flex-col md:flex-row  shrink-0 justify-center gap-8 mt-12 ">
               @foreach (__('smarter-business.data2') as $index => $item)
-                  <div class="w-full md:w-[282px]  h-[425px] p-6 text-start flex flex-col justify-between relative bg-cover bg-center bg-no-repeat"
+                  <div class="w-full md:w-[282px]  h-[425px] p-6  text-start flex flex-col justify-between relative bg-cover bg-center bg-no-repeat"
                        style="background-image: url('{{ asset($item['img']) }}');">
 
 
