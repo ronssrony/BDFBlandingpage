@@ -88,7 +88,7 @@
     <x-layout>
         <button class="btn">
             <div class="btn-content">
-                <span>Start free trial</span>
+                <span>{{__('hero.button-text')}}</span>
             </div>
         </button>
 

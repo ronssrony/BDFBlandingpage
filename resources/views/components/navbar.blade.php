@@ -3,7 +3,7 @@
     $currentSection = $currentSection ?? 'home'; // Default value
  @endphp
 <nav class="navbar  fixed top-0 z-[9999] min-w-full flex justify-center  max-h-[70px]  items-center min-h-[70px] transition-all duration-300 ">
-    <div class=" transition-all duration-400 flex bg-white justify-between items-center  mx-auto max-w-[1300px] lg:max-w-[1005px] xl:max-w-[1160px] min-[1300px]:max-w-[1256px] 2xl:max-w-[1300px] w-[100%] lg:w-[100%] xl:w-[100%] 2xl:w-[100%] py-3 px-4">
+    <div class=" transition-all bg-white duration-400 flex  justify-between items-center  mx-auto max-w-[1200px]  w-[100%]  py-3 px-4">
         <div class="w-1/6 min-w-36 max-w-36 cursor-pointer">
             <a href="{{ route('home') }}">
                 <img class=" " src="/BFLOGO.png" alt="Logo"/>
