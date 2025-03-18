@@ -34,7 +34,7 @@
         if (!isDragging) return;
         e.preventDefault();
         const x = e.pageX - container.offsetLeft;
-        const walk = (x - startX) * 2; 
+        const walk = (x - startX) * 2;
         container.scrollLeft = scrollLeft - walk;
     });
 
