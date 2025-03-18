@@ -11,11 +11,11 @@
     @include('components.one-stop-solution')
     @include('components.essential-business')
     @include('components.unlimited-templates')
-        @include('components.pricing')
+    @include('components.pricing')
     @include('components.mission-vision')
     @include('components.team-behind')
     @include('components.faq')
-        @include('components.testimonials')
+    @include('components.testimonials')
     @include('components.footer')
 
 </div>

@@ -157,7 +157,7 @@
                 </div>
 
                 <!-- Copyright Section -->
-                <div class="border-t mt-12 py-12 border-[#CBCBCB] pt-6 flex flex-col md:flex-row justify-between items-center">
+                <div class="border-t mt-12 py-10 border-[#CBCBCB] pt-6 flex flex-col md:flex-row justify-between items-center">
                     <p class="text-secondary">{{ __('footer.copyright') }}</p>
                 </div>
             </div>
