@@ -68,17 +68,17 @@
                                md:text-xl md:font-bold md:text-white">
                         {{ __('growth-story.current_premium.title_2') }}
                     </h2>
-                    
+
                     <div class="flex text-left mt-2">
                         <p class="lg:text-sm text-white font-bold lg:text-white md:text-sm md:text-white">{{ __('growth-story.current_premium.subtitle_1') }}</p>
                         <p class="lg:text-sm lg:ml-1 lg:text-gray-400
                                   md:text-sm md:ml-1 md:text-gray-400">{{ __('growth-story.current_premium.subtitle_2') }}</p>           
                         
                     </div>
-                
+
                 </div>
-                
-            </div> 
+
+            </div>
             <!-- Item 3 (White Circle - Top Line) -->
             <div class="lg:relative lg:text-center lg:w-full md:relative md:text-center md:w-1/6  pb-8 mb-6">
                
@@ -107,10 +107,10 @@
                         </div>  
                          <div class="mt-1 lg:flex lg:justify-center text-left md:flex md:justify-center">
                             <span class="font-bold text-white">{{ __('growth-story.year_2025.subtitle_3') }}</span>
-                        </div> 
+                        </div>
                     </div>
                 </div>
-                
+
             </div>
             <!-- Item 2 (Orange Circle - Bottom Line) -->
             <div class="lg:relative lg:text-center lg:w-full pb-8 mb-6
@@ -133,7 +133,7 @@
                     <p class="lg:text-[14px] text-left ml-1 lg:text-gray-400 lg:whitespace-nowrap
                               md:text-[14px] md:text-gray-400 md:whitespace-nowrap">{{ __('growth-story.monthly_renewals.subtitle_3') }}</p>
                 </div>
-            </div> 
+            </div>
           <!-- Item 5 (White Circle - Top Line) -->
           <div class="lg:relative lg:text-center lg:w-full md:w-1/6 pb-8 mb-6 md:relative md:text-center  md:pb-8 md:mb-6">
                

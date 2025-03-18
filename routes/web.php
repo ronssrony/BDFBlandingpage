@@ -10,6 +10,14 @@ Route::middleware('setLanguage')->group(function (){
         return view('welcome');
     })->name('home');
 
+    Route::get('/privacy-policy', function () {
+        return view('privacy-policy');
+    })->name('privacy-policy');
+
+    Route::get('/terms-and-conditions', function () {
+        return view('terms-condition');
+    })->name('terms-and-conditions');
+
     Route::get('/{lang}', function ($lang) {
         App::setLocale($lang);
         return view('welcome');

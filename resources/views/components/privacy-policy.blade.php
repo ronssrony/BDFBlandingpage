@@ -1,4 +1,4 @@
-<div class="px-6">
+<div class="px-6 max-w-[1300px]">
     <div >
         <h1 class="text-[24px] font-[700] mb-4">{{__('privacy-policy.title')}}</h1>
         <p class="text-[20px] font-[300] mb-4">{{__('privacy-policy.subtitle')}}</p>
@@ -9,7 +9,7 @@
             <h2 class="text-[20px] font-[700] mb-6">{{ $item['header'] }}</h2>
             <div>
                 @foreach ($item['content'] as $point)
-                    <p class="text-[16px] font-[300]">{{ $point }}</p>
+                    <p class="text-[16px] font-[300] pb-2">{{ $point }}</p>
                 @endforeach
             </div>
         </div>

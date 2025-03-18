@@ -1,4 +1,4 @@
-<div id="faq">
+<div id="faq" class="max-w-[1300px]">
     <div class="px-6 flex flex-col-reverse md:flex-row gap-10 items-center ">
         <div class="flex-[1]">
             <img src="faq\faqImage.png" alt="faq-image">
@@ -6,8 +6,8 @@
 
         <div class="flex-[1.5]">
             <div class="text-center md:text-left">
-                <p class="text-[18px] md:text-[24px] font-[300]">Common Question on Client’s Mind</p>
-                <h1 class="text-[32px] md:text-[50px] font-[800] mb-6">Frequently Ask Question</h1>
+                <p class="text-[18px] md:text-[24px] font-[300]">{{__('faq.header')}}</p>
+                <h1 class="text-[32px] md:text-[50px] font-[800] mb-6">{{__('faq.title')}}</h1>
             </div>
 
             <div id="faq-container">
