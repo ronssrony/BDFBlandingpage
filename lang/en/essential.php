@@ -1,6 +1,13 @@
 <?php
 
 return [
+    'header1'=>'Why BD Funnel Builder is',
+    'header2'=> 'Essential for Your Business',
+    'footer-head'=> 'Seamless Customer Support',
+    'footer-body'=> 'Boost Customer Satisfaction & Resolve Issues Faster!',
+
+    "data"=> [
+
     [
         "title" => "Sell Physical & Digital Products",
         "body" => "Sell both online and offline products effortlessly.",
@@ -81,5 +88,7 @@ return [
         "body" => "Analyze delivery performance and logistics data.",
         "image" => "images/essential-business/ls17.svg"
     ]
+    ]
+     
   
 ];

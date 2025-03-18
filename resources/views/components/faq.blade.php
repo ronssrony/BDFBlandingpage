@@ -1,13 +1,13 @@
-<x-layout>
-    <div class="px-6 flex flex-col-reverse md:flex-row gap-10 items-center py-10">
+<div id="faq" class="max-w-[1300px]">
+    <div class="px-6 flex flex-col-reverse md:flex-row gap-10 items-center ">
         <div class="flex-[1]">
             <img src="faq\faqImage.png" alt="faq-image">
         </div>
 
         <div class="flex-[1.5]">
             <div class="text-center md:text-left">
-                <p class="text-[18px] md:text-[24px] font-[300]">Common Question on Client’s Mind</p>
-                <h1 class="text-[32px] md:text-[50px] font-[800] mb-6">Frequently Ask Question</h1>
+                <p class="text-[18px] md:text-[24px] font-[300]">{{__('faq.header')}}</p>
+                <h1 class="text-[32px] md:text-[50px] font-[800] mb-6">{{__('faq.title')}}</h1>
             </div>
 
             <div id="faq-container">
@@ -18,7 +18,7 @@
                         <span class="flex-1">{{ $faq['question'] }}</span>
                         <span class="icon text-3xl transition-transform duration-200">+</span>
                     </button>
-            
+
                     <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
                         <div class="pt-2 text-white text-[14px] md:text-[16px] font-[300] flex items-start md:items-center gap-2">
                             <p> — </p>
@@ -27,11 +27,11 @@
                     </div>
                 </div>
                 @endforeach
-            </div> 
+            </div>
 
         </div>
     </div>
-</x-layout>
+</div>
 
 <script>
     function toggleFAQ(button) {
@@ -55,9 +55,9 @@
         button.setAttribute("aria-expanded", !isExpanded);
         content.style.maxHeight = isExpanded ? "0" : content.scrollHeight + "px";
 
-        parentDiv.classList.toggle("bg-[#1565CE]", !isExpanded); 
+        parentDiv.classList.toggle("bg-[#1565CE]", !isExpanded);
         parentDiv.classList.toggle("bg-[#E1EEFF]", isExpanded);
-        parentDiv.classList.toggle("text-[#024091]", isExpanded); 
+        parentDiv.classList.toggle("text-[#024091]", isExpanded);
 
         button.classList.toggle("text-white", !isExpanded);
         button.classList.toggle("text-[#024091]", isExpanded);

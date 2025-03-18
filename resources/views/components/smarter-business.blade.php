@@ -1,8 +1,8 @@
-<x-layout>
+<div>
     <div class="p-4">
         <div>
             <p class=" heading_1 font-light text-center">{{ __('smarter-business.title') }}</p>
-            <h1 class="title-header font-extrabold text-center">{{ __('smarter-business.subtitle') }}</h1>
+            <h1 class="title-header  font-extrabold text-center">{{ __('smarter-business.subtitle') }}</h1>
             <p class="description font-light text-center hidden md:block">{!! __('smarter-business.subtitle1') !!}</p>
             <p class="description font-light text-center block md:hidden">
                 {{ __('smarter-business.subtitlesm') }}</p>
@@ -37,7 +37,7 @@
     </div>
 
     <div class="flex justify-center pb-16">
-        @include('components.free-trail-button')
+        @include('components.trial-button')
     </div>
 
 
@@ -88,4 +88,4 @@
     </div>
 
 
-</x-layout>
+</div>
