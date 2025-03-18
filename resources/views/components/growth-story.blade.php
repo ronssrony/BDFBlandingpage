@@ -30,21 +30,19 @@
                             md:absolute md:bottom-[calc(50%+5px)]  md:left-1/2 md:-translate-y-0 md:-translate-x-1/2 md:w-0.5 md:h-20 md:border-l-2 md:border-dashed md:border-gray-500">
                 </div>
                 <div class="ml-20 mt-5 lg:ml-0 lg:-mt-52 lg:flex lg:flex-col lg:items-center
-                           md:-mt-52 md:flex md:flex-col md:items-center">
-                   
-                    <h2 class="lg:text-2xl text-2xl text-left lg:mx-auto font-bold lg:text-center md:text-xl md:mx-auto md:text-center
-                                ">{{ __('growth-story.year_2023.title') }}</h2>
+                            md:ml-0 md:-mt-52 md:flex md:flex-col md:items-center">
+                    <h2 class="lg:text-2xl text-2xl text-left lg:mx-auto font-bold lg:text-center
+                               md:text-xl md:mx-auto md:text-center">{{ __('growth-story.year_2023.title') }}</h2>
                 
-                    <div class="paragraph_small lg:justify-between text-gray-400 mt-2 lg:text-center md:justify-between md:text-center">
-                        <div class="lg:flex lg:justify-center text-left
-                                    md:flex md:justify-center">
+                    <div class="paragraph_small lg:justify-between text-gray-400 mt-2 lg:text-center
+                                md:justify-betwee md:text-center">
+                        <div class="lg:flex lg:justify-center lg:text-nowrap lg:items-center text-left
+                                    md:flex md:justify-center md:text-nowrap md:items-center ">
                             <span class="font-bold text-white">{{ __('growth-story.year_2023.subtitle_1') }}</span>
                             <span class="ml-1 font-bold">{{ __('growth-story.year_2023.subtitle_2') }}</span>
-                        </div> 
-                        <div class="mt-1 lg:flex lg:justify-center text-left
-                                    md:flex md:justify-center">
+                        </div>  
+                         <div class="mt-1 lg:flex lg:justify-center text-left md:flex md:justify-center">
                             <span class="font-bold text-white">{{ __('growth-story.year_2023.subtitle_3') }}</span>
-                            <span class="ml-1 font-bold">{{ __('growth-story.year_2023.subtitle_4') }}</span>
                         </div>
                     </div>
                 </div>
@@ -61,18 +59,18 @@
                             md:ml-0  md:mt-72 md:flex md:flex-col md:items-center md:text-center">
 
                     <h2 class="text-2xl text-left font-semibold lg:text-xl lg:font-bold lg:text-white
-                               md:text-xl md:font-bold md:text-white">
+                               md:text-[10px] md:font-bold md:text-white">
                         {{ __('growth-story.current_premium.title_1') }}
                     </h2>
                     <h2 class="text-2xl text-left font-semibold lg:text-xl lg:font-bold lg:text-white
-                               md:text-xl md:font-bold md:text-white">
+                               md:text-[10px] md:font-bold md:text-white">
                         {{ __('growth-story.current_premium.title_2') }}
                     </h2>
 
                     <div class="flex text-left mt-2">
-                        <p class="lg:text-sm text-white font-bold lg:text-white md:text-sm md:text-white">{{ __('growth-story.current_premium.subtitle_1') }}</p>
+                        <p class="lg:text-[10px] text-white font-bold lg:text-white md:text-sm md:text-white">{{ __('growth-story.current_premium.subtitle_1') }}</p>
                         <p class="lg:text-sm lg:ml-1 lg:text-gray-400
-                                  md:text-sm md:ml-1 md:text-gray-400">{{ __('growth-story.current_premium.subtitle_2') }}</p>           
+                                  md:text-[10px] md:ml-1 md:text-gray-400">{{ __('growth-story.current_premium.subtitle_2') }}</p>           
                         
                     </div>
 
@@ -122,16 +120,16 @@
                 <div class="ml-20 mt-5 lg:ml-0  lg:mt-72 lg:text-center
                             md:ml-0  md:mt-72  md:text-center">
                     <h2 class="text-2xl text-left font-semibold lg:text-xl lg:font-bold lg:text-white
-                               md:text-xl md:font-bold md:text-white">{{ __('growth-story.monthly_renewals.title_1') }}</h2>
+                               md:text-[14px] md:font-bold md:text-white">{{ __('growth-story.monthly_renewals.title_1') }}</h2>
                     <div class="lg:text-[14px] lg:flex lg:text-nowrap flex text-left
-                                md:text-[14px] md:flex md:text-nowrap">
+                                md:text-[10px] md:flex md:text-nowrap">
                         <p class=" lg:text-white text-white lg:font-semibold lg:text-nowrap
-                                     md:text-white  md:font-semibold md:text-nowrap">{{ __('growth-story.monthly_renewals.subtitle_1') }}</p>
+                                     md:text-white md:text-[10px] md:font-semibold md:text-nowrap">{{ __('growth-story.monthly_renewals.subtitle_1') }}</p>
                     <p class=" ml-1 lg:text-gray-400 lg:text-nowrap
-                               md:text-gray-400 md:text-nowrap">{{ __('growth-story.monthly_renewals.subtitle_2') }}</p>
+                               md:text-gray-400 md:text-nowrap md:text-[10px]">{{ __('growth-story.monthly_renewals.subtitle_2') }}</p>
                     </div>
                     <p class="lg:text-[14px] text-left ml-1 lg:text-gray-400 lg:whitespace-nowrap
-                              md:text-[14px] md:text-gray-400 md:whitespace-nowrap">{{ __('growth-story.monthly_renewals.subtitle_3') }}</p>
+                              md:text-[10px] md:text-gray-400 md:whitespace-nowrap">{{ __('growth-story.monthly_renewals.subtitle_3') }}</p>
                 </div>
             </div>
           <!-- Item 5 (White Circle - Top Line) -->
@@ -150,7 +148,7 @@
             </div>
             <div class="ml-20 mt-5 lg:ml-0 lg:-mt-52
                         md:ml-0 md:-mt-52">
-                <h2 class="lg:text-2xl text-[27px] whitespace-normal text-left font-semibold lg:whitespace-nowrap
+                <h2 class="lg:text-2xl md:-ml-10 text-[27px] whitespace-normal text-left font-semibold lg:whitespace-nowrap
                            md:text-xl md:whitespace-nowrap">
                     {{ __('growth-story.first_launch.title') }}
                 </h2>
@@ -159,9 +157,9 @@
                                 md:text-[11px]  md:flex-row md:items-center md:space-x-3">
                         <div class="flex flex-col text-left lg:flex lg:flex-row lg:whitespace-nowrap
                                     md:flex md:flex-col md:whitespace-nowrap">
-                            <span class="font-bold text-white">{{ __('growth-story.first_launch.subtitle_1') }}</span>
-                            <span class="text-left font-bold lg:ml-1 lg:text-no-wrap
-                                         md:ml-1 md:text-no-wrap">{{ __('growth-story.first_launch.subtitle_2') }}</span>
+                            <span class="font-bold md:text-[14px] md:-ml-3 text-white">{{ __('growth-story.first_launch.subtitle_1') }}</span>
+                            <span class="text-left md:text-[14px] md:-ml- font-bold lg:ml-1 lg:text-no-wrap
+                                          md:text-no-wrap">{{ __('growth-story.first_launch.subtitle_2') }}</span>
                         </div>
                     </div>
             
@@ -169,8 +167,8 @@
                                 md:text-[12px] md:flex-col md:items-center md:space-x-3">
                         <div class="lg:flex lg:flex-row  flex flex-col text-left lg:whitespace-nowrap
                                     md:flex md:flex-col md:whitespace-nowrap">
-                            <span class="font-bold text-white">{{ __('growth-story.first_launch.subtitle_3') }}</span>
-                            <span class="lg:ml-1 md:ml-1 font-bold">{{ __('growth-story.first_launch.subtitle_4') }}</span>
+                            <span class="font-bold md:text-[10px] md:-ml-3 text-white">{{ __('growth-story.first_launch.subtitle_3') }}</span>
+                            <span class="lg:ml-1 md:text-[10px] md:-ml-3 font-bold">{{ __('growth-story.first_launch.subtitle_4') }}</span>
                         </div>
                     </div>
                 </div>
@@ -186,14 +184,14 @@
                 <div class="ml-20 mt-5 lg:ml-0  lg:mt-72
                              md:ml-0  md:mt-72 md:mx-auto">
                     <h2 class="text-2xl font-bold lg:text-nowrap text-left lg:text-xl lg:font-bold lg:text-white
-                               md:text-nowrap  md:text-xl md:font-bold md:text-white">{{ __('growth-story.positive_feedback.title_1') }}</h2>
-                               <div class="paragraph_small block text-left lg:text-nowrap lg:flex {{app()->getLocale()==='bn'?'lg:flex-col':''}} md:text-nowrap md:flex md:justify-center lg:justify-center">
+                               md:text-nowrap  md:text-[14px] md:font-bold md:text-white">{{ __('growth-story.positive_feedback.title_1') }}</h2>
+                               <div class="paragraph_small md:p-3 block text-left lg:text-nowrap lg:flex {{app()->getLocale()==='bn'?'lg:flex-col':''}} md:text-nowrap md:flex md:justify-center lg:justify-center">
         
                         <span class="lg:text-[14px] lg:text-gray-400
-                                     md:text-[10px] md:p-5  md:text-gray-400">{{ __('growth-story.positive_feedback.subtitle_1') }}</span>
+                                     md:text-[14px]  md:text-gray-400">{{ __('growth-story.positive_feedback.subtitle_1') }}</span>
                     <span class="lg:text-[14px] lg:font-semibold font-semibold ml-1 lg:text-white md:text-white md:text-[14px] md:font-semibold">{{ __('growth-story.positive_feedback.subtitle_2') }}</span>
                     <span class="lg:text-[14px]   ml-1 lg:text-gray-400
-                                 md:text-[10px] md:text-gray-400">{{ __('growth-story.positive_feedback.subtitle_3') }}</span>
+                                 md:text-[14px] md:text-gray-400">{{ __('growth-story.positive_feedback.subtitle_3') }}</span>
                     </div>
                     <span class="block text-left lg:ml-1 lg:text-nowrap lg:text-[14px]  lg:text-gray-400
                                  md:ml-1 md:text-nowrap md:text-[10px] md:text-gray-400">{{ __('growth-story.positive_feedback.subtitle_4') }}</span>
