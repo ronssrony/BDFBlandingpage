@@ -66,11 +66,11 @@
     </head>
 
     <body>
-        <div class="space-y-5">
-            <div class="slider-container">
-                <!-- First Row -->
-                <div class="slider" id="firstRow"></div>
-            </div>
+    <div class="space-y-5">
+        <div class="slider-container">
+            <!-- First Row -->
+            <div class="slider" id="firstRow"></div>
+        </div>
 
             <div class="slider-container">
                 <!-- Second Row -->
@@ -90,16 +90,16 @@
                 "{{ asset('unlimited-templates/Frame 9.png') }}"
             ];
 
-            let secondRowImages = [
-                "{{ asset('unlimited-templates/Frame 6.png') }}",
-                "{{ asset('unlimited-templates/Frame 7.png') }}",
-                "{{ asset('unlimited-templates/Frame 8.png') }}",
-                "{{ asset('unlimited-templates/Frame 9.png') }}",
-                "{{ asset('unlimited-templates/Frame 10.png') }}",
-                "{{ asset('unlimited-templates/Frame 11.png') }}",
-                "{{ asset('unlimited-templates/Frame 12.png') }}",
-                "{{ asset('unlimited-templates/Frame 13.png') }}"
-            ];
+        let secondRowImages = [
+            "{{ asset('unlimited-templates/Frame 6.png') }}",
+            "{{ asset('unlimited-templates/Frame 7.png') }}",
+            "{{ asset('unlimited-templates/Frame 8.png') }}",
+            "{{ asset('unlimited-templates/Frame 9.png') }}",
+            "{{ asset('unlimited-templates/Frame 10.png') }}",
+            "{{ asset('unlimited-templates/Frame 11.png') }}",
+            "{{ asset('unlimited-templates/Frame 12.png') }}",
+            "{{ asset('unlimited-templates/Frame 13.png') }}"
+        ];
 
             function generateSlides(containerId, imagesArray) {
                 let container = document.getElementById(containerId);
@@ -118,6 +118,6 @@
 
     </body>
 
-    
+
 
 </div>
