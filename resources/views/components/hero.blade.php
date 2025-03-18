@@ -14,7 +14,7 @@
             </div>
 
             <div class="block lg:hidden">
-                <img src="{{ asset('hero/graphChart-section-sm.png') }}" alt="" class="w-150 sm:w-200 h-auto">
+                <img src="{{ asset('images/hero/graphChart-section-sm.png') }}" alt="" class="w-150 sm:w-200 h-auto">
             </div>
 
             <div class="pt-0 lg:pt-4">
@@ -22,7 +22,7 @@
                     <div class="flex items-center">
                         <div class="relative">
                             <span class="absolute top-0 left-0 w-4 h-4 bg-blue-500 opacity-75 rounded-full animate-ping ml-[12px] mt-[12px]"></span>
-                            <img src="{{ asset('hero/listIcon.png') }}" alt="" class="relative z-10 scale-80">
+                            <img src="{{ asset('images/hero/listIcon.png') }}" alt="" class="relative z-10 scale-80">
                         </div>
                         <p class="text-[14px] sm:text-[16px]">
                             <span class="font-bold">{{ __('hero.item1-bold') }}</span>{{ __('hero.item1') }}
@@ -32,14 +32,14 @@
                     <div class="flex items-center">
                         <div class="relative">
                             <span class="absolute top-0 left-0 w-4 h-4 bg-blue-500 rounded-full animate-ping ml-[12px] mt-[12px]"></span>
-                            <img src="{{ asset('hero/listIcon.png') }}" alt="" class="relative z-10 scale-80">
+                            <img src="{{ asset('images/hero/listIcon.png') }}" alt="" class="relative z-10 scale-80">
                         </div>
                         <p class="text-[14px] sm:text-[16px]"><span class="font-bold">{{ __('hero.item2-bold') }}</span>{{ __('hero.item2') }}</p>
                     </div>
                     <div class="flex items-center">
                         <div class="relative">
                             <span class="absolute top-0 left-0 w-4 h-4 bg-blue-500 opacity-75 rounded-full animate-ping ml-[12px] mt-[12px]"></span>
-                            <img src="{{ asset('hero/listIcon.png') }}" alt="" class="relative z-10 scale-80">
+                            <img src="{{ asset('images/hero/listIcon.png') }}" alt="" class="relative z-10 scale-80">
                         </div>
                         <p class="text-[14px] sm:text-[16px]"><span class="font-bold">{{ __('hero.item3-bold') }}</span>{{ __('hero.item3') }}</p>
                     </div>
@@ -54,12 +54,12 @@
                 </div>
                 <div class="flex gap-2 items-center">
                     <div class="flex gap-[-8px]">
-                        <img src="{{ asset('hero/activeUser1.png') }}" alt="" class="scale-90">
-                        <img src="{{ asset('hero/activeUser2.png') }}" alt="" class="-ml-8 scale-90">
-                        <img src="{{ asset('hero/activeUser3.png') }}" alt="" class="-ml-8 scale-90">
+                        <img src="{{ asset('images/hero/activeUser1.png') }}" alt="" class="scale-90">
+                        <img src="{{ asset('images/hero/activeUser2.png') }}" alt="" class="-ml-8 scale-90">
+                        <img src="{{ asset('images/hero/activeUser3.png') }}" alt="" class="-ml-8 scale-90">
                     </div>
                     <div>
-                        <img src="{{ asset('hero/stars.png') }}" alt="" class="">
+                        <img src="{{ asset('images/hero/stars.png') }}" alt="" class="">
                         <p class="text-[16px]">600+ Active Users Reviews</p>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
 
         </div>
         <div>
-            <img src="{{ asset('hero/graphChart-section-lg.png') }}" alt="" class="w-380 h-auto hidden lg:block">
+            <img src="{{ asset('images/hero/graphChart-section-lg.png') }}" alt="" class="w-380 h-auto hidden lg:block">
 
         </div>
     </div>
