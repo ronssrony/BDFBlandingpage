@@ -1,4 +1,4 @@
-<x-layout>
+<div id="pricing">
     <div class=" bg-[url('https://i.ibb.co.com/gbD61c6w/Group-427321858.png')] bg-cover bg-center bg-no-repeat mt-20">
         <div class="p-4">
             <div class="max-w-5xl max-lg:max-w-2xl mx-auto">
@@ -147,4 +147,4 @@
             </a>
         </div>
     </div>
-</x-layout>
+</div>

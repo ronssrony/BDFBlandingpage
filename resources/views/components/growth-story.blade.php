@@ -1,5 +1,5 @@
 
-  <div>
+  <div id="about">
     <div class=" bg-black font-sans text-white min-h-screen w-full"
     style="background-image: url('/images/Group 427321952 (1) 1.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
 
