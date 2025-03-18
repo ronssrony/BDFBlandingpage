@@ -1,13 +1,17 @@
-<div>
-    <div class="text-start py-4 pl-60 pt-20">
-        <h1 class="heading_1 font-light">{{ __('unlimited-templates.title') }}</h1>
-        <h2 class="font-extrabold title-header">{{ __('unlimited-templates.header') }}</h2>
-        <p class="font-medium header_4">{{ __('unlimited-templates.subtitle') }}</p>
+<div class="flex flex-col items-center ">
+    <div class="max-w-[1200px] ">
+        <div class="self-start max-[1200px]:px-6 min-[1200px]:min-w-[1200px]  ">
+            <div class=" py-4   pt-20">
+                <h1 class="heading_1 font-light">{{ __('unlimited-templates.title') }}</h1>
+                <h2 class="font-extrabold title-header">{{ __('unlimited-templates.header') }}</h2>
+                <p class="font-medium header_4">{{ __('unlimited-templates.subtitle') }}</p>
+            </div>
+        </div>
+
+
     </div>
 
 
-    <!DOCTYPE html>
-    <html lang="en">
 
     <head>
         <meta charset="UTF-8">
@@ -15,8 +19,6 @@
         <title>Wave-Like Continuous Slider</title>
 
         <style>
-
-
             .slider-container {
                 width: 100%;
                 overflow: hidden;
@@ -26,11 +28,16 @@
 
             .slider {
                 display: flex;
-                animation: scroll 10s linear infinite;
+                animation: scroll 14s linear infinite;
             }
 
             .slider.reverse {
-                animation: scrollReverse 11s linear infinite;
+                animation: scroll 10s linear infinite;
+            }
+
+            /* Pause animation on hover */
+            .slider:hover {
+                animation-play-state: paused;
             }
 
             @keyframes scroll {
@@ -64,11 +71,11 @@
     </head>
 
     <body>
-        <div class="space-y-5">
-            <div class="slider-container">
-                <!-- First Row -->
-                <div class="slider" id="firstRow"></div>
-            </div>
+    <div class="space-y-5">
+        <div class="slider-container">
+            <!-- First Row -->
+            <div class="slider" id="firstRow"></div>
+        </div>
 
             <div class="slider-container">
                 <!-- Second Row -->
@@ -76,41 +83,36 @@
             </div>
         </div>
 
-
-
-
         <script>
-            // Define separate image arrays for both rows
             let firstRowImages = [
-                "{{ asset('unlimited-templates/Frame 1.png') }}",
-                "{{ asset('unlimited-templates/Frame 2.png') }}",
-                "{{ asset('unlimited-templates/Frame 3.png') }}",
-                "{{ asset('unlimited-templates/Frame 4.png') }}",
-                "{{ asset('unlimited-templates/Frame 5.png') }}",
-                "{{ asset('unlimited-templates/Frame 14.png') }}",
-                "{{ asset('unlimited-templates/Frame 15.png') }}",
-                "{{ asset('unlimited-templates/Frame 9.png') }}"
+                "{{ asset('images/unlimited-templates/Frame 1.png') }}",
+                "{{ asset('images/unlimited-templates/Frame 2.png') }}",
+                "{{ asset('images/unlimited-templates/Frame 3.png') }}",
+                "{{ asset('images/unlimited-templates/Frame 4.png') }}",
+                "{{ asset('images/unlimited-templates/Frame 5.png') }}",
+                "{{ asset('images/unlimited-templates/Frame 14.png') }}",
+                "{{ asset('images/unlimited-templates/Frame 15.png') }}",
+                "{{ asset('images/unlimited-templates/Frame 9.png') }}"
             ];
 
-            let secondRowImages = [
-                "{{ asset('unlimited-templates/Frame 6.png') }}",
-                "{{ asset('unlimited-templates/Frame 7.png') }}",
-                "{{ asset('unlimited-templates/Frame 8.png') }}",
-                "{{ asset('unlimited-templates/Frame 9.png') }}",
-                "{{ asset('unlimited-templates/Frame 10.png') }}",
-                "{{ asset('unlimited-templates/Frame 11.png') }}",
-                "{{ asset('unlimited-templates/Frame 12.png') }}",
-                "{{ asset('unlimited-templates/Frame 13.png') }}"
-            ];
+        let secondRowImages = [
+            "{{ asset('images/unlimited-templates/Frame 6.png') }}",
+            "{{ asset('images/unlimited-templates/Frame 7.png') }}",
+            "{{ asset('images/unlimited-templates/Frame 8.png') }}",
+            "{{ asset('images/unlimited-templates/Frame 9.png') }}",
+            "{{ asset('images/unlimited-templates/Frame 10.png') }}",
+            "{{ asset('images/unlimited-templates/Frame 11.png') }}",
+            "{{ asset('images/unlimited-templates/Frame 12.png') }}",
+            "{{ asset('images/unlimited-templates/Frame 13.png') }}"
+        ];
 
-            // Function to generate images in a continuous row
             function generateSlides(containerId, imagesArray) {
                 let container = document.getElementById(containerId);
-                let totalImages = imagesArray.length * 2; // Duplicate images for smooth looping
+                let totalImages = imagesArray.length * 2;
 
                 for (let i = 0; i < totalImages; i++) {
                     let img = document.createElement("img");
-                    img.src = imagesArray[i % imagesArray.length]; // Loop over images
+                    img.src = imagesArray[i % imagesArray.length];
                     container.appendChild(img);
                 }
             }

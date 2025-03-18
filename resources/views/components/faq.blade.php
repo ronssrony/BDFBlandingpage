@@ -1,9 +1,8 @@
-<div id="faq" class="max-w-[1300px]">
-    <div class="px-6 flex flex-col-reverse md:flex-row gap-10 items-center ">
+<div id="faq" class="grid justify-center py-20">
+    <div class="  flex flex-col-reverse md:flex-row gap-10 items-center max-w-[1200px] max-[1200px]:px-6 ">
         <div class="flex-[1]">
-            <img src="faq\faqImage.png" alt="faq-image">
-        </div>
-
+            <img src="images/faq/faqImage.png" alt="faq-image">
+        </div>p
         <div class="flex-[1.5]">
             <div class="text-center md:text-left">
                 <p class="text-[18px] md:text-[24px] font-[300]">{{__('faq.header')}}</p>
