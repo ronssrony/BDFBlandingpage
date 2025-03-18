@@ -1,6 +1,6 @@
 <div class="relative py-8 pl-32 pr-14 container ">
     <div class="absolute right-0 top-4/8 transform -translate-y-1/2 flex flex-col gap-4">
-        <img src="{{ asset('hero/overviewTable1.png') }}" alt="" class="w-50 h-auto">
+        <img src="{{ asset('hero/overviewTable1.png') }}" alt="" class="w-55 h-auto">
         <img src="{{ asset('hero/superFast-website.png') }}" alt="" class="w-44 h-auto ml-12">
         <img src="{{ asset('hero/abandonedOrders.png') }}" alt="" class="w-44 h-auto ml-12">
         <img src="{{ asset('hero/fakeOrderSolution.png') }}" alt="" class="w-44 h-auto ml-12">
@@ -90,7 +90,7 @@
                         <img src="{{ asset('hero/listIcon.png') }}" alt="" class="relative z-10 scale-80">
                     </div>
                     <p class="text-[16px]">
-                        <span class="font-bold">Drag & Drop Site Builder – </span>No coding required
+                        <span class="font-bold">{{ __('hero.item1-bold') }}</span>{{ __('hero.item1') }}
                     </p>
                 </div>
 
@@ -99,14 +99,14 @@
                         <span class="absolute top-0 left-0 w-4 h-4 bg-blue-500 rounded-full animate-ping ml-[12px] mt-[12px]"></span>
                         <img src="{{ asset('hero/listIcon.png') }}" alt="" class="relative z-10 scale-80">
                     </div>
-                    <p class="text-[16px]"><span class="font-bold">Business Automation –</span>Manage everything in one place</p>
+                    <p class="text-[16px]"><span class="font-bold">{{ __('hero.item2-bold') }}</span>{{ __('hero.item2') }}</p>
                 </div>
                 <div class="flex items-center">
                     <div class="relative">
                         <span class="absolute top-0 left-0 w-4 h-4 bg-blue-500 opacity-75 rounded-full animate-ping ml-[12px] mt-[12px]"></span>
                         <img src="{{ asset('hero/listIcon.png') }}" alt="" class="relative z-10 scale-80">
                     </div>
-                    <p class="text-[16px]"><span class="font-bold">Powerful Analytics –</span>Make data-driven decisions</p>
+                    <p class="text-[16px]"><span class="font-bold">{{ __('hero.item3-bold') }}</span>{{ __('hero.item3') }}</p>
                 </div>
             </div>
             <div class="flex gap-5 items-center pt-6 pb-5">
@@ -114,7 +114,7 @@
                     @include('components.heroButton')
                 </div>
                 <div>
-                    <button class="underline text-[18px] cursor-pointer">More Info</button>
+                    <button class="underline text-[18px] cursor-pointer">{{ __('hero.seemore') }}</button>
                 </div>
             </div>
             <div class="flex gap-2 items-center px-2">
