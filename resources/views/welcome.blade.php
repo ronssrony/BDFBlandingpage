@@ -11,6 +11,7 @@
     @include('components.growth-story')
     @include('components.essential-business')
     @include('components.unlimited-templates')
+        @include('components.pricing')
     @include('components.mission-vision')
     @include('components.team-behind')
     @include('components.faq')

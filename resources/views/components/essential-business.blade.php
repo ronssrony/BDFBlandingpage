@@ -17,14 +17,12 @@
                    {{ __('essential.header2') }}
             </h1>
             @endif
-
         </div>
     </div>
     <div class="p-4 md:p-8 lg:p-10">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-
             @foreach (__('essential.data') as $index => $i)
-                    <div class="relative w-[90%] md:w-[80%] lg:w-[100%] mx-auto  p-1.5">
+                    <div class="relative w-[90%] md:w-[80%] lg:w-[100%] mx-auto">
                         @if($loop->index % 2 == 0)
                             <img src="{{ asset('images/essential-business/section2-bg.png') }}" alt="Image {{ $loop->index }}"
                                 class="h-[140px] w-full object-cover">
@@ -61,7 +59,6 @@
             @include('components.trial-button')
         </div>
     </div>
-
     <div class="relative p-5 mb-10  block md:hidden">
         <img src="{{ asset('images/essential-business/sm-bg.svg') }}" alt="" class="w-full h-auto">
         <div class="absolute inset-0 flex flex-col  items-start text-white px-15 mt-[12%] ">

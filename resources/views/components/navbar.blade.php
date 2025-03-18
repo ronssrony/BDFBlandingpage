@@ -42,7 +42,7 @@
     </div>
 </nav>
 
-<div id="mobileMenu" class="sidebar xl:hidden  bg-white/80 backdrop-blur-sm   rounded w-full z-40    flex flex-col py-5 md:pt-24 items-center" >
+<div id="mobileMenu" class="sidebar xl:hidden  bg-white/80 backdrop-blur-sm   rounded w-full z-40    flex flex-col py-5 pt-24 items-center" >
     <div class=" lg:hidden  flex flex-col gap-2 px-5">
         @foreach(__('navbar.sections') as $section)
             <button
@@ -56,11 +56,12 @@
     <div class=" xl:hidden flex  flex-col gap-5 p-5 h-full items-start">
         @include('components.language-selector',['width'=>'w-36'])
         <button
-            class=" bg-[#1565ce] w-36 text-white px-4 py-2 rounded-full hover:bg-[#1565ce]/90 transition-colors whitespace-nowrap"
+            class=" bg-[#1565ce] text-white w-36 relative pl-6 pr-12 py-2 rounded-full hover:bg-[#1565ce]/90 transition-colors whitespace-nowrap "
             onclick="scrollToSection('contact')">
             {{ __('navbar.start_today') }}
-            <div>
-                <img src="/icons/arrow-down.svg" alt="arrow"/>
+
+            <div class="absolute right-0 top-0 text-white flex justify-center items-center h-10 w-10 rounded-full bg-[#4F8CDB]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 22"><!-- Icon from All by undefined - undefined --><path fill="currentColor" d="M12 14.708L6.692 9.4l.708-.708l4.6 4.6l4.6-4.6l.708.708z"/></svg>
             </div>
         </button>
     </div>
