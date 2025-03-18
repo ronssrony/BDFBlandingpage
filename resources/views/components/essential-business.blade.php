@@ -1,4 +1,4 @@
-<div id="features" class="max-w-[1300px] mx-auto px-4">
+<div id="features" class="max-w-[1300px] mx-auto px-4"git>
     <p class="text-center mt-10 mb-2 text-gray-800 text-lg md:text-xl lg:text-2xl">
     {{ __('essential.header1') }}
     </p>
