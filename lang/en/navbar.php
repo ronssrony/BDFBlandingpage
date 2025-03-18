@@ -49,6 +49,7 @@ return [
     // Button text
     'start_today' => 'login',
 
+    'font-style'=>'font-sf' ,
 
     // Classes
     'inactive_class' => 'nav-link px-3 py-1 font-[300] text-sm  rounded-full text-[#000000] whitespace-nowrap',

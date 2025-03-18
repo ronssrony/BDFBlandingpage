@@ -21,7 +21,7 @@
     @endif
 
 </head>
-<main class="">
+<main class="{{__('navbar.font-style')}}">
     {{ $slot }}
 </main>
 </html>
