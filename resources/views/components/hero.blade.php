@@ -6,7 +6,10 @@
                     <p class="text-[40px] sm:text-[56px] font-black text-[#1565CE]">{{ __('hero.title') }}</p>
                 </div>
                 <div>
-                    <p class="text-[24px] sm:text-[34px] font-bold leading-[1.5] md:leading-[2.5rem]">{{ __('hero.subtitle') }}</p>
+                    <p class="text-[24px] sm:text-[34px] font-bold leading-[1.5] relative md:leading-[3.0rem]"><svg class="absolute bottom-6 max-w-44 sm:max-w-72 md:bottom-9 right-40" width="292" height="14" viewBox="0 0 292 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M291.634 5.94219C221.887 1.56599 82.5249 -7.74337 0.388243 13.066C50.7168 0.315376 175.174 2.81244 291.634 5.94219Z" fill="#DA5E00"/>
+                        </svg>
+                        {{ __('hero.subtitle') }}</p>
                 </div>
                 <div>
                     <p class="text-[18px] sm:text-[24px] pt-4 pb-4 lg:pb-0 lg:pt-8">{{ __('hero.business-hassle') }}</p>
