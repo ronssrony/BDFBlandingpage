@@ -47,6 +47,7 @@
     container.addEventListener("mouseleave", () => {
         isDragging = false;
         container.classList.remove("cursor-grabbing");
+        
     });
 </script>
 
