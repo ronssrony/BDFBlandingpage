@@ -1,4 +1,4 @@
-<div class="py-4 pl-5 pr-5 lg:py-4 lg:pl-28 lg:pr-0">
+<div id="home" class="py-4 pl-5 pr-5 lg:py-4  lg:pr-0">
     <div class="flex gap-2 flex-col lg:flex-row items-center justify-center">
         <div>
             <div class="">
