@@ -3,12 +3,12 @@
         style="background-image: url('/images/Group 427321952 (1) 1.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
         <div class="max-w-[1200px] mx-auto">
 
-            <div class="text-center  mt-8 mb-8 lg:mt-14 lg:pt-14 md:mt-52 md:pt-60 md:pb-16 mx-auto relative">
+            <div class="text-center  mt-8 mb-2 lg:mt-14 lg:pt-14 md:mt-52 md:pt-60 md:pb-2 mx-auto relative">
                 <h3 class="text-sm text-gray-400">{{ __('growth-story.growth_story.title') }}</h3>
                 <h1 class="text-3xl font-bold">{{ __('growth-story.growth_story.subtitle') }}</h1>
             </div>
 
-            <div class="relative lg:relative md:relative md:w-11/12 lg:w-11/12 lg:mt-45 md:mx-auto lg:mx-auto ">
+            <div class="relative lg:relative md:relative md:w-11/12 lg:w-11/12 lg:mt-32 md:mx-auto lg:mx-auto ">
 
                 <div
                     class="absolute left-14 -translate-x-1/2  w-0.5 h-full border-l-2 border-dashed border-gray-600 md:hidden">

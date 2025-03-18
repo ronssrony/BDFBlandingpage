@@ -3,7 +3,7 @@
         @include('components.navbar')
         </div>
     <div>
-    @include('components.hero')
+        @include('components.hero')
     @include('components.brands-marquee')
     @include('components.smarter-business')
     @include('components.boost-business')

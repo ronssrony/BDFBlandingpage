@@ -1,5 +1,5 @@
-<div id="home" class="py-4 pl-5 pr-5 lg:py-4  lg:pr-0">
-    <div class="flex gap-2 flex-col lg:flex-row items-center justify-center">
+<div id="home" class="py-4 pl-5 pr-5 lg:py-4  lg:pr-0 grid justify-center items-center">
+    <div class=" max-w-[1200px]  flex gap-2 flex-col lg:flex-row items-center justify-center">
         <div>
             <div class="">
                 <div>
@@ -67,7 +67,7 @@
 
         </div>
         <div>
-            <img src="{{ asset('images/hero/graphChart-section-lg.png') }}" alt="" class="w-380 h-auto hidden lg:block">
+            <img src="{{ asset('images/hero/graphChart-section-lg.png') }}" alt="" class=" h-auto hidden lg:block">
 
         </div>
     </div>
