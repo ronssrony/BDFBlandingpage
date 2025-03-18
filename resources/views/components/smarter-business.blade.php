@@ -1,5 +1,5 @@
-<div>
-    <div class="p-4">
+<div class="grid justify-center">
+    <div class="max-w-[1200px]">
         <div>
             <p class=" heading_1 font-light text-center">{{ __('smarter-business.title') }}</p>
             <h1 class="title-header  font-extrabold text-center">{{ __('smarter-business.subtitle') }}</h1>
@@ -42,7 +42,7 @@
 
 
 
-    <div class="p-4">
+    <div class="">
         <div>
             <p class=" medium font-light text-center">{{ __('smarter-business.title2') }}</p>
             <h1 class="title-header font-extrabold text-center">{{ __('smarter-business.subtitle2') }}</h1>
@@ -51,9 +51,9 @@
 
 
         </div>
-        <div class="flex flex-col md:flex-row justify-center gap-6 mt-12 px-6">
+        <div class="flex flex-col md:flex-row flex-wrap shrink-0 justify-center gap-6 mt-12 px-6">
             @foreach (__('smarter-business.data2') as $index => $item)
-                <div class="w-full md:w-[276px] h-[425px] p-6 text-start flex flex-col justify-between relative bg-cover bg-center bg-no-repeat"
+                <div class="w-full md:w-[282px] min-w-[282px] h-[425px] p-6 text-start flex flex-col justify-between relative bg-cover bg-center bg-no-repeat"
                     style="background-image: url('{{ asset($item['img']) }}');">
 
 

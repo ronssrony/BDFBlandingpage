@@ -1,5 +1,5 @@
 <div>
-    <div class="px-10 md:px-28 py-10 max-w-[1300px]">
+    <div class="px-10 md:px-28 py-10 grid justify-center ">
         <h1 class="text-[#666666] text-center text-[18px] md:text-[24px] font-[300] pb-6">{{__('brands.header')}}</h1>
 
         <div id="image-container" class="flex items-center gap-10 overflow-hidden cursor-grab">
@@ -34,7 +34,7 @@
         if (!isDragging) return;
         e.preventDefault();
         const x = e.pageX - container.offsetLeft;
-        const walk = (x - startX) * 2; 
+        const walk = (x - startX) * 2;
         container.scrollLeft = scrollLeft - walk;
     });
 
