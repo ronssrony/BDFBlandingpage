@@ -23,7 +23,7 @@
 
 
     <!-- Hero Section -->
-    <div class="pt-20">
+    <div id="contact" class="pt-20">
         <section class="bg-[#1565CE] mx-auto w-full text-white rounded-xl py-8 md:py-10 sm:rounded-lg relative">
             <div class="container px-4 md:px-8">
                 <div class="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10 z-10">
