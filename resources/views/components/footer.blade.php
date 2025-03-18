@@ -27,7 +27,7 @@
         <section class="bg-[#1565CE] mx-auto w-full text-white rounded-xl py-8 md:py-10 sm:rounded-lg relative">
             <div class="container px-4 md:px-8">
                 <div class="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10 z-10">
-                    <img src="/images/mask.png" alt="Mask Top" class="absolute top-0 right-0 w-40 md:block z-0">
+                    <img src="images\mask.png" alt="Mask-Top" class="absolute top-0 right-0 w-40 md:block z-0">
 
                     <!-- Text content -->
                     <div class="sm:text-center md:w-1/2">

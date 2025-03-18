@@ -200,6 +200,9 @@
     .button_border {
         @apply border border-[#CAE1FF];
     }
+    .media_circle {
+        @apply text-blue-600 bg-[#A7CDFF] w-12 h-12 rounded-full flex items-center justify-center transition;
+    }
 }
 
 
