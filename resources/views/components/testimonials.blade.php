@@ -1,4 +1,4 @@
-<div>
+<div id="testimonials">
     <div class="text-center py-4">
         <h1 class="medium font-light">{{ __('testimonial.title') }}</h1>
         <h2 class="font-extrabold title-header">{{ __('testimonial.header') }}</h2>
