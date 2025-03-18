@@ -1,49 +1,56 @@
 <div>
-    <div class="px-10 md:px-28 py-10 max-w-[1300px]">
+    <div class="px-10 md:px-28 py-10 max-w-[1300px] mx-auto">
         <h1 class="text-[#666666] text-center text-[18px] md:text-[24px] font-[300] pb-6">{{__('brands.header')}}</h1>
 
-        <div class="overflow-hidden relative w-full">
-            <div id="scroll-container" class="flex items-center gap-10 animate-marquee">
-        
-                <img src="brands/brand1.png" alt="brand1">
-                <img src="brands/brand2.png" alt="brand2">
-                <img src="brands/brand3.png" alt="brand3">
-                <img src="brands/brand4.png" alt="brand4">
-                <img src="brands/brand5.png" alt="brand5">
-                <img src="brands/brand6.png" alt="brand6">
-                <img src="brands/brand7.png" alt="brand7">
-                <img src="brands/brand8.png" alt="brand8">
-                <img src="brands/brand9.png" alt="brand9">
-        
-                <img src="brands/brand1.png" alt="brand1">
-                <img src="brands/brand2.png" alt="brand2">
-                <img src="brands/brand3.png" alt="brand3">
-                <img src="brands/brand4.png" alt="brand4">
-                <img src="brands/brand5.png" alt="brand5">
-                <img src="brands/brand6.png" alt="brand6">
-                <img src="brands/brand7.png" alt="brand7">
-                <img src="brands/brand8.png" alt="brand8">
-                <img src="brands/brand9.png" alt="brand9">
+        <div class="overflow-hidden relative cursor-pointer">
+            <div x-data="{ scrolling: true }">
+                <div id="marquee" class="flex items-center gap-x-10 animate-marquee">
+                    @php
+                        $images = [
+                            '/images/brands/brand1.png',
+                            '/images/brands/brand2.png',
+                            '/images/brands/brand3.png',
+                            '/images/brands/brand4.png',
+                            '/images/brands/brand5.png',
+                            '/images/brands/brand6.png',
+                            '/images/brands/brand7.png',
+                            '/images/brands/brand8.png',
+                            '/images/brands/brand9.png'
+                        ];
+                    @endphp
+    
+                    @foreach ($images as $image)
+                        <div>
+                            <img src="{{ asset($image) }}" alt="brand" class="h-auto">
+                        </div>
+                    @endforeach
+                    
+
+                    @foreach ($images as $image)
+                        <div>
+                            <img src="{{ asset($image) }}" alt="brand" class="h-auto">
+                        </div>
+                    @endforeach
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-
 <style>
     @keyframes marquee {
-        from {
-            transform: translateX(0);
-        }
-        to {
-            transform: translateX(-50%);
-        }
+        from { transform: translateX(0); }
+        to { transform: translateX(-50%); }
     }
 
     .animate-marquee {
         display: flex;
         white-space: nowrap;
-        animation: marquee 20s linear infinite;
+        animation: marquee 15s linear infinite;
         width: max-content;
+    }
+
+    [x-data] .animate-marquee:hover {
+        animation-play-state: paused;
     }
 </style>
