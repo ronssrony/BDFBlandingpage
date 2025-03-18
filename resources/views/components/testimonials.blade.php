@@ -8,7 +8,7 @@
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     @foreach (__('testimonial.slider') as $index => $testimonial)
-                        <div class="swiper-slide pl-10 pr-0 md:pr-0 md:pl-10 lg:pl-0">
+                        <div class="swiper-slide pl-18 pr-0 md:pr-0 md:pl-10 lg:pl-0">
                             <div
                                 class="flex flex-col justify-between slide-content card h-[400px] w-[300px] bg-white border-2 border-blue-600 p-4 rounded-lg relative">
                                 <div>

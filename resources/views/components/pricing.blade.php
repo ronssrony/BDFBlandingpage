@@ -127,14 +127,14 @@
                     <div class="flex items-center justify-between px-8 py-4 border border-[#6BABFF] cursor-pointer rounded-xl dark:border-gray-700">
                         <div class="flex flex-col  space-y-1">
                             <h2 class="text-[16px] font-medium text-white">Upto 5 team members</h2>
-                            <h2><strike class="text-red-500"><span class="text-white">1500</span> </strike><strong class="text-[24px] font-medium text-[#E7B122] ml-2"> 1000 BDT</strong></h2>
+                            <h2><strike class="text-[#F16464]"><span class="text-white">1500</span> </strike><strong class="text-[24px] font-medium text-[#E7B122] ml-2"> 1000 BDT</strong></h2>
                             <h2 class="text-[14px] font-semibold text-white">User/Month</h2>
                         </div>
                     </div>
                     <div class="flex items-center justify-between px-8 py-4 border border-[#6BABFF] cursor-pointer rounded-xl dark:border-gray-700">
                         <div class="flex flex-col  space-y-1">
                             <h2 class="text-[16px] font-medium text-white">More than 5 team members</h2>
-                            <h2><strike class="text-red-500"><span class="text-white">1500</span> </strike><strong class="text-[24px] font-medium text-[#E7B122] ml-2"> 900 BDT</strong></h2>
+                            <h2><strike class="text-[#F16464]"><span class="text-white">1500</span> </strike><strong class="text-[24px] font-medium text-[#E7B122] ml-2"> 900 BDT</strong></h2>
                             <h2 class="text-[14px] font-semibold text-white">User/Month</h2>
                         </div>
                     </div>
