@@ -44,7 +44,7 @@
                             </ul>
                         </div>
 
-                        <h3 class="mt-10 mb-5 lg:text-[20px] md:text-[18px] text-[16px] text-white font-medium text-center">N.B: After exceeding <span class="text-[#E7B122]"> 5,000 page views</span>, an additional charge of <span class="text-[#E7B122]">25 BDT per 1,000 page views</span> will apply.</h3>
+                        <h3 class="mt-10 mb-5 lg:text-[20px] md:text-[18px] text-[16px] text-white font-medium text-center px-3">N.B: After exceeding <span class="text-[#E7B122]"> 5,000 page views</span>, an additional charge of <span class="text-[#E7B122]">25 BDT per 1,000 page views</span> will apply.</h3>
                     </div>
                 </div>
             </div>
