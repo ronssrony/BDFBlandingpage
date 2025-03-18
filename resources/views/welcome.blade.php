@@ -1,5 +1,5 @@
 <x-layout>
-    <div class="nav mb-28">
+    <div class="nav mb-20">
         @include('components.navbar')
         </div>
     <div>
