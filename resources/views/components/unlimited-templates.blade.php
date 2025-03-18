@@ -6,8 +6,7 @@
     </div>
 
 
-    <!DOCTYPE html>
-    <html lang="en">
+
 
     <head>
         <meta charset="UTF-8">
@@ -15,8 +14,6 @@
         <title>Wave-Like Continuous Slider</title>
 
         <style>
-
-
             .slider-container {
                 width: 100%;
                 overflow: hidden;
@@ -26,11 +23,16 @@
 
             .slider {
                 display: flex;
-                animation: scroll 10s linear infinite;
+                animation: scroll 14s linear infinite;
             }
 
             .slider.reverse {
-                animation: scrollReverse 11s linear infinite;
+                animation: scroll 10s linear infinite;
+            }
+
+            /* Pause animation on hover */
+            .slider:hover {
+                animation-play-state: paused;
             }
 
             @keyframes scroll {
@@ -76,11 +78,7 @@
             </div>
         </div>
 
-
-
-
         <script>
-            // Define separate image arrays for both rows
             let firstRowImages = [
                 "{{ asset('unlimited-templates/Frame 1.png') }}",
                 "{{ asset('unlimited-templates/Frame 2.png') }}",
@@ -103,25 +101,23 @@
                 "{{ asset('unlimited-templates/Frame 13.png') }}"
             ];
 
-            // Function to generate images in a continuous row
             function generateSlides(containerId, imagesArray) {
                 let container = document.getElementById(containerId);
-                let totalImages = imagesArray.length * 2; // Duplicate images for smooth looping
+                let totalImages = imagesArray.length * 2;
 
                 for (let i = 0; i < totalImages; i++) {
                     let img = document.createElement("img");
-                    img.src = imagesArray[i % imagesArray.length]; // Loop over images
+                    img.src = imagesArray[i % imagesArray.length];
                     container.appendChild(img);
                 }
             }
 
-            // Generate slides separately for both rows
             generateSlides("firstRow", firstRowImages);
             generateSlides("secondRow", secondRowImages);
         </script>
 
     </body>
 
-    </html>
+    
 
 </div>
