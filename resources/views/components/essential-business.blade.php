@@ -19,9 +19,9 @@
              @foreach (__('essential.data') as $index => $i)
                  <div class="relative w-[90%] md:w-[80%] lg:w-[100%] mx-auto  ">
                      @if($loop->index % 2 == 0)
-                         <img src="{{ asset('images/essential-business/section2-bg.png') }}" alt="Image {{ $loop->index }}"
+                         <img src="{{ asset('images/essential-business/section1-bg.svg') }}" alt="Image {{ $loop->index }}"
                               class="h-[140px] w-full object-cover">
-                         <div class="absolute top-0 left-0 w-full h-full p-3 text-white flex justify-center items-center">
+                         <div class="absolute top-0 left-0 w-full h-full p-3  text-[#1565CE] flex justify-center items-center">
                              <img src="{{ asset($i['image']) }}" alt="Image {{ $loop->index }}"
                                   class="p-2 w-16 h-16 md:w-20 md:h-20">
                              <div class="ml-4">
@@ -30,10 +30,10 @@
                              </div>
                          </div>
                      @else
-                         <img src="{{ asset('images/essential-business/section1-bg.svg') }}" alt="Image {{ $loop->index }}"
+                         <img src="{{ asset('images/essential-business/section2-bg.png') }}" alt="Image {{ $loop->index }}"
                               class="h-[140px] w-full object-cover">
                          <div
-                             class="absolute top-0 left-0 w-full h-full p-3 text-[#1565CE] flex justify-center items-center">
+                             class="absolute top-0 left-0 w-full h-full p-3 text-white flex justify-center items-center">
                              <img src="{{ asset($i['image']) }}" alt="Image {{ $loop->index }}"
                                   class="p-2 w-16 h-16 md:w-20 md:h-20">
                              <div class="ml-4">

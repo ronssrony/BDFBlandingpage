@@ -7,6 +7,81 @@ return [
     'footer-body'=> 'গ্রাহক সন্তুষ্টি বাড়ান এবং দ্রুত সমস্যার সমাধান করুন।',
 
     'data'=>[
+        [
+            "title" => "সুপার ফাস্ট ওয়েবসাইট",
+            "body" => "দ্রুত লোডিং পারফরম্যান্স যা ব্যবহারকারীদের জন্য স্মুথ এক্সপ্রিয়েন্স নিশ্চিত করে।",
+            "image" => "images/essential-business/l1.svg"
+        ],
+        [
+            "title" => "ফেইক অর্ডার প্রতিরোধ",
+            "body" => "শুধুমাত্র আসল ও নিশ্চিত অর্ডার গ্রহণের নিশ্চয়তা দেয়। ",
+            "image" => "images/essential-business/l2.svg"
+        ],
+        [
+            "title" => "ড্র্যাগ & ড্রপ ওয়েবসাইট বিল্ডার",
+            "body" => "সহজেই ওয়েবসাইট তৈরি ও কাস্টমাইজ করুন।",
+            "image" => "images/essential-business/l3.svg"
+        ],
+        [
+            "title" => "অর্ডার অটোমেশন",
+            "body" => "অর্ডার প্রসেসিং অটোমেট করে সময় বাঁচান।",
+            "image" => "images/essential-business/l4.svg"
+        ],
+        [
+            "title" => "কুরিয়ার অটোমেশন",
+            "body" => "আপনার শিপিং ও ডেলিভারি প্রক্রিয়া সহজ ও স্মার্ট করুন।",
+            "image" => "images/essential-business/l5.svg"
+        ],
+        [
+            "title" => "নিরাপদ গ্রাহক তথ্য",
+            "body" => "গ্রাহকদের তথ্য সুরক্ষিত রাখুন।",
+            "image" => "images/essential-business/l6.svg"
+        ],
+        [
+            "title" => "মার্কেটিং টুলস",
+            "body" => "সেল বাড়াতে দরকারি ফিচারগুলো ব্যবহার করুন।",
+            "image" => "images/essential-business/l7.svg"
+        ],
+        [
+            "title" => "ল্যান্ডিং পেজ টেমপ্লেটস",
+            "body" => "রেডি ডিজাইন দিয়ে সহজেই কনভারশন বাড়ান।",
+            "image" => "images/essential-business/l8.svg"
+        ],
+        [
+            "title" => "কাস্টমার সাপোর্ট",
+            "body" => "যখনই প্রয়োজন, নির্ভরযোগ্য সহায়তা।",
+            "image" => "images/essential-business/l9.svg"
+        ],
+        [
+            "title" => "পারফরম্যান্স ট্র্যাকিং",
+            "body" => "পারফরম্যান্স পর্যবেক্ষণ এবং উন্নতির জন্য শক্তিশালী ফিচার।",
+            "image" => "images/essential-business/l10.svg"
+        ],
+        [
+            "title" => "টিম ম্যানেজমেন্ট",
+            "body" => "দলের কার্যকারিতা বাড়ানোর জন্য সহজ ব্যবস্থাপনা।",
+            "image" => "images/essential-business/l11.svg"
+        ],
+        [
+            "title" => "কল সেন্টার",
+            "body" => "বিক্রেতাদের সাথে নির্বিঘ্নে সংযোগ করে অপারেশন উন্নত করুন।",
+            "image" => "images/essential-business/l12.svg"
+        ],
+        [
+            "title" => "কাস্টম ও অটোমেটিক এসএমএস",
+            "body" => "গ্রাহকদের জন্য স্বয়ংক্রিয় ও ব্যক্তিগত এসএমএস নোটিফিকেশন।",
+            "image" => "images/essential-business/l13.svg"
+        ],
+        [
+            "title" => "অব্যবহৃত কার্ট",
+            "body" => "অসম্পূর্ণ অর্ডারকৃত ডাটা পুনরুদ্ধার।",
+            "image" => "images/essential-business/l14.svg"
+        ],
+        [
+            "title" => " পেমেন্ট গেটওয়ে",
+            "body" => "নিরাপদ এবং নির্ভরযোগ্য লেনদেনের ব্যবস্থা।",
+            "image" => "images/essential-business/l15.svg"
+        ],
 
     [
         "title" => "সফলতার প্রুভেন সুপার সাপোর্ট সিস্টেম",

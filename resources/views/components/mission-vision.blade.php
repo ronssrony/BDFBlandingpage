@@ -1,13 +1,13 @@
 <div>
     <div class="pt-10">
-        <div class="max-w-5xl mx-auto px-4 py-10">
+        <div class="max-w-[1200px] mx-auto px-4 py-10">
             <div class="text-center mb-10">
                 <h1 class="text-[24px] font-light text-secondary">{{__('mission_vision.sub-title')}}</h1>
                 <h2 class="text-[60px] font-bold text-black mt-4">{{__('mission_vision.title')}}</h2>
             </div>
 
-            <div class="bg-blue-600 text-white rounded-t-[70px] sm:rounded-t-xl p-12 relative overflow-hidden mb-10">
-                <h2 class="title-header font-bold text-right mb-6">{{__('mission_vision.vision')}}</h2>
+            <div class="bg-blue-600 text-white rounded-t-[70px] sm:rounded-t-xl p-12  relative overflow-hidden mb-10">
+                <h2 class="text-[36px] font-bold text-right mb-6">{{__('mission_vision.vision')}}</h2>
                 <p class="description text-right ">
                     {{__('mission_vision.vision-description')}}
                 </p>
@@ -27,7 +27,7 @@
                 <img src="/images/mission_b.png" alt="Mission Bottom"
                      class="absolute bottom-2 left-10 w-20 opacity-70 md:block z-0">
 
-                <h2 class="title-header font-bold text-left text-primary mb-6 relative z-10">{{__('mission_vision.mission')}}</h2>
+                <h2 class="text-[36px] font-bold text-left text-primary mb-6 relative z-10">{{__('mission_vision.mission')}}</h2>
                 <p class="description text-primary leading-relaxed text-left relative z-10">
                     {{__('mission_vision.mission-description')}}
                 </p>
