@@ -13,12 +13,15 @@
                                 class="flex flex-col justify-between slide-content card h-[400px] w-[300px] bg-white border-2 border-blue-600 p-4 rounded-lg relative">
                                 <div>
                                     <img src="images/testimonial/Group.png" alt="Client Image" class="w-12 h-8">
-                                    <p class="mt-4 text-start">{{ $testimonial['body'] }}</p>
+                                    <p
+                                        class="mt-4 text-start min-h-56 overflow-y-auto">
+                                        {{ $testimonial['body'] }}
+                                    </p>
                                 </div>
 
                                 <div class="flex justify-start border-t-2 border-dashed pt-5 border-blue-500">
-                                    <img src="{{ asset( 'images/'.$testimonial['image']) }}" alt="Client Image"
-                                         class="w-16 h-16 rounded-full">
+                                    <img src="{{ asset('images/' . $testimonial['image']) }}" alt="Client Image"
+                                        class="w-16 h-16 rounded-full">
                                     <div class="flex flex-col pl-4 items-start">
                                         <h3 class="mt-2 font-bold text-center">{{ $testimonial['name'] }}</h3>
                                         <p class="text-sm text-center">{{ $testimonial['designation'] }}</p>
@@ -27,6 +30,7 @@
                             </div>
                         </div>
                     @endforeach
+
                 </div>
 
                 <!-- Fixed pagination -->
@@ -71,4 +75,12 @@
             });
         });
     </script>
+    <style>
+        p {
+            max-height: 7rem;
+            overflow-y: auto;
+            scrollbar-width: thin;
+
+        }
+    </style>
 </div>
