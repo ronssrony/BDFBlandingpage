@@ -9,7 +9,7 @@
         <button class="bg-[#1565ce] {{$width}} text-white relative pl-6 pr-12 py-2 rounded-full hover:bg-[#1565ce]/90 transition-colors whitespace-nowrap"
                 id="{{ $uniqueId }}-dropdown"
                 onclick="toggleLoginDropdown('{{ $uniqueId }}')">
-            {{ $buttonText ?? 'Login' }}
+            {{ __('navbar.start_today') }}
 
             <div class="absolute right-0 top-0 text-white flex justify-center items-center h-10 w-10 rounded-full bg-[#4F8CDB]">
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 22" class="{{ $uniqueId }}-arrow-icon transition-all duration-300">
